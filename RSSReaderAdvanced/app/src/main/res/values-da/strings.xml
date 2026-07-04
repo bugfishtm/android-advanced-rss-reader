@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Alle artikler</string>
+    <string name="nav_sources">Kilder</string>
+    <string name="nav_favorites">Favoritter</string>
+
+    <string name="title_add_source">Tilføj kilde</string>
+    <string name="title_edit_source">Rediger kilde</string>
+    <string name="title_settings">Indstillinger</string>
+    <string name="title_about">Om</string>
+
+    <string name="refresh_all">Opdater alle</string>
+    <string name="add">Tilføj</string>
+    <string name="save">Gem</string>
+    <string name="cancel">Annuller</string>
+    <string name="delete">Slet</string>
+    <string name="edit">Rediger</string>
+    <string name="settings">Indstillinger</string>
+    <string name="about">Om</string>
+    <string name="open_in_browser">Åbn i browser</string>
+    <string name="share">Del</string>
+    <string name="send_email">Send via e-mail</string>
+    <string name="copy_link">Kopiér link</string>
+    <string name="text_larger">Større tekst</string>
+    <string name="text_smaller">Mindre tekst</string>
+    <string name="link_copied">Link kopieret</string>
+    <string name="no_email_app">Ingen e-mailapp fundet</string>
+    <string name="search">Søg</string>
+    <string name="search_hint">Søg i artikler…</string>
+    <string name="mark_all_read">Markér alle som læst</string>
+    <string name="marked_all_read">Alle markeret som læst</string>
+    <string name="import_opml">Importér feeds (OPML)</string>
+    <string name="export_opml">Eksportér feeds (OPML)</string>
+    <string name="opml_exported">%1$d feeds eksporteret</string>
+    <string name="opml_export_failed">Eksport mislykkedes</string>
+    <string name="opml_imported">%1$d nye feeds importeret</string>
+    <string name="opml_import_none">Ingen nye feeds fundet i den fil</string>
+    <string name="opml_import_failed">Kunne ikke læse den OPML-fil</string>
+    <string name="opml_import_limited">%1$d feeds importeret. Gratisversionen er begrænset til %2$d — få Pro for ubegrænset.</string>
+
+    <string name="sort_by">Sortér:</string>
+    <string name="filter_by">Kilde:</string>
+    <string name="all_sources">Alle kilder</string>
+    <string name="empty_items">Ingen artikler endnu.\nTilføj en kilde, og opdater for at hente artikler.</string>
+    <string name="empty_favorites">Ingen favoritter endnu.\nTryk på stjernen på en artikel for at gemme den her.</string>
+    <string name="empty_sources">Ingen kilder endnu.\nTryk på + for at tilføje et feed.</string>
+
+    <string name="add_custom_feed">Tilpasset feed</string>
+    <string name="source_name">Navn</string>
+    <string name="source_url">Feed-URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Bemærk: at tilføje eller opdatere et feed forbinder din enhed til den kildes server, som kan modtage din IP-adresse og anmodningsoplysninger. Læs hver kildes egen privatlivspolitik og databeskyttelsesvilkår for at se, hvordan de bruger disse data.</string>
+    <string name="from_catalogue">Fra kataloget</string>
+    <string name="custom">Tilpasset</string>
+    <string name="items_count">%1$d artikler</string>
+    <string name="refreshing">Opdaterer…</string>
+    <string name="refresh_done">%1$d nye artikler · %2$d kilder ok, %3$d mislykkedes</string>
+    <string name="refresh_failed">Opdatering mislykkedes</string>
+    <string name="source_refreshed">%1$d nye artikler</string>
+    <string name="source_refresh_failed">Feedet kunne ikke indlæses</string>
+    <string name="url_required">Indtast en feed-URL</string>
+    <string name="source_exists">Det feed er allerede blandt dine kilder</string>
+    <string name="source_added">Kilde tilføjet</string>
+    <string name="delete_source_q">Slet denne kilde og dens artikler? Favoritter bevares.</string>
+    <string name="validating">Kontrollerer feed…</string>
+    <string name="invalid_feed">Feedet kunne ikke læses. Kontrollér URL\'en.</string>
+
+    <string name="favorited">Gemt i favoritter</string>
+    <string name="unfavorited">Fjernet fra favoritter</string>
+    <string name="no_content_online">Denne artikel læses online. Tryk for at åbne.</string>
+    <string name="by_author">af %1$s</string>
+
+    <string name="first_run_title">Hvordan vil du læse?</string>
+    <string name="first_run_message">Vælg, hvordan artikler håndteres. Du kan ændre det senere i Indstillinger.</string>
+    <string name="mode_local_title">Gem lokalt</string>
+    <string name="mode_local_desc">Download og behold hele artikelteksten på denne enhed. Læs offline.</string>
+    <string name="mode_online_title">Læs online</string>
+    <string name="mode_online_desc">Behold kun overskrifterne; åbn hele artiklen på nettet, når du trykker.</string>
+
+    <string name="setting_storage_header">Læsning og lagring</string>
+    <string name="setting_store_local">Gem artikler lokalt</string>
+    <string name="setting_store_local_sub">Fra = læs kun artikler online (favoritter bevares altid)</string>
+    <string name="setting_show_images">Vis billeder i artikler</string>
+    <string name="setting_show_images_sub">Indlæs billeder fra feeds (fra = kun tekst)</string>
+    <string name="images_warning_title">Vis billeder?</string>
+    <string name="images_warning_message">Billeder indlæses direkte fra hvert feeds servere. Derved afsløres din IP-adresse (og omtrentlige placering/netværk) for den, der hoster billedet — det kan bruges til at spore dig. Allerede gemte favoritter påvirkes ikke. Indlæs billeder alligevel?</string>
+    <string name="images_enable">Aktivér billeder</string>
+
+    <string name="setting_refresh_header">Baggrundsopdateringer</string>
+    <string name="setting_auto_refresh">Opdater automatisk i baggrunden</string>
+    <string name="setting_auto_refresh_sub">Hent nye artikler regelmæssigt, selv når appen er lukket</string>
+    <string name="setting_push">Giv mig besked om nye artikler</string>
+    <string name="setting_push_sub">Vis en notifikation, når baggrundsopdateringen finder nye artikler</string>
+    <string name="setting_interval">Opdateringsinterval</string>
+    <string name="setting_about">Om denne app</string>
+    <string name="notif_permission_needed">Tillad notifikationer for at modtage besked om nye artikler</string>
+
+    <string name="channel_new_items">Nye artikler</string>
+    <string name="channel_new_items_desc">Beskeder, når baggrundsopdateringen finder nye artikler</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d ny artikel</item>
+        <item quantity="other">%d nye artikler</item>
+    </plurals>
+
+    <string name="title_privacy">Privatliv</string>
+    <string name="privacy">Privatliv</string>
+
+    <string name="about_app_tagline">En ren og avanceret RSS-læser.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_developer_header">Udvikler</string>
+
+    <string name="no_connection">Ingen internetforbindelse</string>
+    <string name="offline_cant_refresh">Du er offline — opret forbindelse til internettet for at opdatere</string>
+    <string name="offline_article">Du er offline. Denne artikel åbnes online — opret forbindelse til internettet, og prøv igen.</string>
+    <string name="offline_validate">Du er offline — opret forbindelse til internettet for at tilføje et feed</string>
+    <string name="blocked_link">Dette link blev blokeret af hensyn til din sikkerhed</string>
+    <string name="web_load_error">Siden kunne ikke indlæses</string>
+
+    <string name="pro_dialog_title">Opgrader til Pro</string>
+    <string name="pro_dialog_message">Gratisversionen er begrænset til %1$d kilder.\n\nHent \"RSS Reader Advanced Pro\" på Google Play for ubegrænsede kilder.</string>
+    <string name="pro_get">Hent Pro</string>
+    <string name="pro_later">Ikke nu</string>
+
+    <string name="cd_favorite">Favorit</string>
+    <string name="cd_add">Tilføj kilde</string>
+</resources>

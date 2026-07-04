@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>नए पहले</item>
+        <item>पुराने पहले</item>
+        <item>शीर्षक (A–Z)</item>
+        <item>स्रोत (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>हर 15 मिनट में</item>
+        <item>हर 30 मिनट में</item>
+        <item>हर घंटे</item>
+        <item>हर 3 घंटे में</item>
+        <item>हर 6 घंटे में</item>
+        <item>दिन में एक बार</item>
+    </string-array>
+</resources>

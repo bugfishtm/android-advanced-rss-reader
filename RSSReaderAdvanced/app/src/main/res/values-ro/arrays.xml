@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Cele mai noi primele</item>
+        <item>Cele mai vechi primele</item>
+        <item>Titlu (A–Z)</item>
+        <item>Sursă (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>La fiecare 15 minute</item>
+        <item>La fiecare 30 de minute</item>
+        <item>În fiecare oră</item>
+        <item>La fiecare 3 ore</item>
+        <item>La fiecare 6 ore</item>
+        <item>O dată pe zi</item>
+    </string-array>
+</resources>

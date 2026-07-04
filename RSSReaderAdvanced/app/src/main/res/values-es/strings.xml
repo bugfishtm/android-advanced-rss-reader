@@ -1,0 +1,138 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">Todos los artículos</string>
+    <string name="nav_sources">Fuentes</string>
+    <string name="nav_favorites">Favoritos</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">Añadir fuente</string>
+    <string name="title_edit_source">Editar fuente</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="title_about">Acerca de</string>
+
+    <!-- Common -->
+    <string name="refresh_all">Actualizar todo</string>
+    <string name="add">Añadir</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="settings">Ajustes</string>
+    <string name="about">Acerca de</string>
+    <string name="open_in_browser">Abrir en el navegador</string>
+    <string name="share">Compartir</string>
+    <string name="send_email">Enviar por correo</string>
+    <string name="copy_link">Copiar enlace</string>
+    <string name="text_larger">Texto más grande</string>
+    <string name="text_smaller">Texto más pequeño</string>
+    <string name="link_copied">Enlace copiado</string>
+    <string name="no_email_app">No se encontró ninguna app de correo</string>
+    <string name="search">Buscar</string>
+    <string name="search_hint">Buscar artículos…</string>
+    <string name="mark_all_read">Marcar todo como leído</string>
+    <string name="marked_all_read">Todo marcado como leído</string>
+    <string name="import_opml">Importar fuentes (OPML)</string>
+    <string name="export_opml">Exportar fuentes (OPML)</string>
+    <string name="opml_exported">%1$d fuente(s) exportada(s)</string>
+    <string name="opml_export_failed">Error al exportar</string>
+    <string name="opml_imported">%1$d fuente(s) nueva(s) importada(s)</string>
+    <string name="opml_import_none">No se encontraron fuentes nuevas en ese archivo</string>
+    <string name="opml_import_failed">No se pudo leer ese archivo OPML</string>
+    <string name="opml_import_limited">%1$d fuente(s) importada(s). La versión gratuita está limitada a %2$d — obtén Pro para tener fuentes ilimitadas.</string>
+
+    <!-- All items -->
+    <string name="sort_by">Ordenar:</string>
+    <string name="filter_by">Fuente:</string>
+    <string name="all_sources">Todas las fuentes</string>
+    <string name="empty_items">Aún no hay artículos.\nAñade una fuente y actualiza para cargar artículos.</string>
+    <string name="empty_favorites">Aún no hay favoritos.\nToca la estrella de un artículo para guardarlo aquí.</string>
+    <string name="empty_sources">Aún no hay fuentes.\nToca + para añadir una fuente.</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">Fuente personalizada</string>
+    <string name="source_name">Nombre</string>
+    <string name="source_url">URL de la fuente (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Nota: añadir o actualizar un feed conecta tu dispositivo al servidor de esa fuente, que puede recibir tu dirección IP y los detalles de la solicitud. Consulta la política de privacidad y las condiciones de protección de datos de cada fuente para saber cómo usan estos datos.</string>
+    <string name="from_catalogue">Del catálogo</string>
+    <string name="custom">Personalizada</string>
+    <string name="items_count">%1$d artículos</string>
+    <string name="refreshing">Actualizando…</string>
+    <string name="refresh_done">%1$d artículo(s) nuevo(s) · %2$d fuente(s) correctas, %3$d con error</string>
+    <string name="refresh_failed">Error al actualizar</string>
+    <string name="source_refreshed">%1$d artículo(s) nuevo(s)</string>
+    <string name="source_refresh_failed">No se pudo cargar la fuente</string>
+    <string name="url_required">Introduce una URL de fuente</string>
+    <string name="source_exists">Esa fuente ya está en tus fuentes</string>
+    <string name="source_added">Fuente añadida</string>
+    <string name="delete_source_q">¿Eliminar esta fuente y sus artículos? Los favoritos se conservan.</string>
+    <string name="validating">Comprobando la fuente…</string>
+    <string name="invalid_feed">No se pudo leer esa fuente. Comprueba la URL.</string>
+
+    <!-- Detail -->
+    <string name="favorited">Guardado en favoritos</string>
+    <string name="unfavorited">Eliminado de favoritos</string>
+    <string name="no_content_online">Este artículo se lee en línea. Toca para abrirlo.</string>
+    <string name="by_author">por %1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">¿Cómo quieres leer?</string>
+    <string name="first_run_message">Elige cómo se gestionan los artículos. Puedes cambiarlo más tarde en Ajustes.</string>
+    <string name="mode_local_title">Guardar localmente</string>
+    <string name="mode_local_desc">Descargar y conservar el texto completo de los artículos en este dispositivo. Leer sin conexión.</string>
+    <string name="mode_online_title">Leer en línea</string>
+    <string name="mode_online_desc">Conservar solo los titulares; abrir el artículo completo en la web al tocarlo.</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">Lectura y almacenamiento</string>
+    <string name="setting_store_local">Guardar artículos localmente</string>
+    <string name="setting_store_local_sub">Desactivado = leer los artículos solo en línea (los favoritos siempre se conservan)</string>
+    <string name="setting_show_images">Mostrar imágenes en los artículos</string>
+    <string name="setting_show_images_sub">Cargar imágenes de las fuentes (desactivado = solo texto)</string>
+    <string name="images_warning_title">¿Mostrar imágenes?</string>
+    <string name="images_warning_message">Las imágenes se cargan directamente desde los servidores de cada fuente. Al hacerlo se revela tu dirección IP (y tu ubicación/red aproximadas) a quien aloja la imagen, lo que puede usarse para rastrearte. Los favoritos que ya has guardado no se ven afectados. ¿Cargar las imágenes de todos modos?</string>
+    <string name="images_enable">Activar imágenes</string>
+
+    <string name="setting_refresh_header">Actualizaciones en segundo plano</string>
+    <string name="setting_auto_refresh">Actualizar automáticamente en segundo plano</string>
+    <string name="setting_auto_refresh_sub">Obtener nuevos artículos periódicamente incluso con la app cerrada</string>
+    <string name="setting_push">Avisarme de nuevos artículos</string>
+    <string name="setting_push_sub">Mostrar una notificación cuando la actualización en segundo plano encuentre nuevos artículos</string>
+    <string name="setting_interval">Intervalo de actualización</string>
+    <string name="setting_about">Acerca de esta app</string>
+    <string name="notif_permission_needed">Permite las notificaciones para recibir avisos de nuevos artículos</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">Nuevos artículos</string>
+    <string name="channel_new_items_desc">Avisos cuando la actualización en segundo plano encuentra nuevos artículos</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d artículo nuevo</item>
+        <item quantity="other">%d artículos nuevos</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">Privacidad</string>
+    <string name="privacy">Privacidad</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">Un lector RSS limpio y avanzado.</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="about_developer_header">Desarrollador</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">Sin conexión a Internet</string>
+    <string name="offline_cant_refresh">Estás sin conexión: conéctate a Internet para actualizar</string>
+    <string name="offline_article">Estás sin conexión. Este artículo se abre en línea: conéctate a Internet e inténtalo de nuevo.</string>
+    <string name="offline_validate">Estás sin conexión: conéctate a Internet para añadir una fuente</string>
+    <string name="blocked_link">Este enlace se bloqueó por tu seguridad</string>
+    <string name="web_load_error">No se pudo cargar la página</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">Cambiar a Pro</string>
+    <string name="pro_dialog_message">La versión gratuita está limitada a %1$d fuentes.\n\nConsigue «RSS Reader Advanced Pro» en Google Play para fuentes ilimitadas.</string>
+    <string name="pro_get">Obtener Pro</string>
+    <string name="pro_later">Ahora no</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">Favorito</string>
+    <string name="cd_add">Añadir fuente</string>
+</resources>

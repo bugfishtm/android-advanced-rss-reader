@@ -1,0 +1,138 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">Tous les articles</string>
+    <string name="nav_sources">Sources</string>
+    <string name="nav_favorites">Favoris</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">Ajouter une source</string>
+    <string name="title_edit_source">Modifier la source</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_about">À propos</string>
+
+    <!-- Common -->
+    <string name="refresh_all">Tout actualiser</string>
+    <string name="add">Ajouter</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="settings">Paramètres</string>
+    <string name="about">À propos</string>
+    <string name="open_in_browser">Ouvrir dans le navigateur</string>
+    <string name="share">Partager</string>
+    <string name="send_email">Envoyer par e-mail</string>
+    <string name="copy_link">Copier le lien</string>
+    <string name="text_larger">Texte plus grand</string>
+    <string name="text_smaller">Texte plus petit</string>
+    <string name="link_copied">Lien copié</string>
+    <string name="no_email_app">Aucune application e-mail trouvée</string>
+    <string name="search">Rechercher</string>
+    <string name="search_hint">Rechercher des articles…</string>
+    <string name="mark_all_read">Tout marquer comme lu</string>
+    <string name="marked_all_read">Tout marqué comme lu</string>
+    <string name="import_opml">Importer des flux (OPML)</string>
+    <string name="export_opml">Exporter des flux (OPML)</string>
+    <string name="opml_exported">%1$d flux exporté(s)</string>
+    <string name="opml_export_failed">Échec de l\'exportation</string>
+    <string name="opml_imported">%1$d nouveau(x) flux importé(s)</string>
+    <string name="opml_import_none">Aucun nouveau flux trouvé dans ce fichier</string>
+    <string name="opml_import_failed">Impossible de lire ce fichier OPML</string>
+    <string name="opml_import_limited">%1$d flux importé(s). La version gratuite est limitée à %2$d — passez à Pro pour un nombre illimité.</string>
+
+    <!-- All items -->
+    <string name="sort_by">Trier :</string>
+    <string name="filter_by">Source :</string>
+    <string name="all_sources">Toutes les sources</string>
+    <string name="empty_items">Aucun article pour l\'instant.\nAjoutez une source et actualisez pour charger des articles.</string>
+    <string name="empty_favorites">Aucun favori pour l\'instant.\nAppuyez sur l\'étoile d\'un article pour l\'enregistrer ici.</string>
+    <string name="empty_sources">Aucune source pour l\'instant.\nAppuyez sur + pour ajouter un flux.</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">Flux personnalisé</string>
+    <string name="source_name">Nom</string>
+    <string name="source_url">URL du flux (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Remarque : ajouter ou actualiser un flux connecte votre appareil au serveur de cette source, qui peut recevoir votre adresse IP et les détails de la requête. Consultez la politique de confidentialité et les conditions de protection des données de chaque source pour savoir comment ces données sont utilisées.</string>
+    <string name="from_catalogue">Depuis le catalogue</string>
+    <string name="custom">Personnalisé</string>
+    <string name="items_count">%1$d articles</string>
+    <string name="refreshing">Actualisation…</string>
+    <string name="refresh_done">%1$d nouvel(s) article(s) · %2$d source(s) ok, %3$d en échec</string>
+    <string name="refresh_failed">Échec de l\'actualisation</string>
+    <string name="source_refreshed">%1$d nouvel(s) article(s)</string>
+    <string name="source_refresh_failed">Impossible de charger le flux</string>
+    <string name="url_required">Veuillez saisir une URL de flux</string>
+    <string name="source_exists">Ce flux est déjà dans vos sources</string>
+    <string name="source_added">Source ajoutée</string>
+    <string name="delete_source_q">Supprimer cette source et ses articles ? Les favoris sont conservés.</string>
+    <string name="validating">Vérification du flux…</string>
+    <string name="invalid_feed">Impossible de lire ce flux. Vérifiez l\'URL.</string>
+
+    <!-- Detail -->
+    <string name="favorited">Ajouté aux favoris</string>
+    <string name="unfavorited">Retiré des favoris</string>
+    <string name="no_content_online">Cet article se lit en ligne. Appuyez pour l\'ouvrir.</string>
+    <string name="by_author">par %1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">Comment souhaitez-vous lire ?</string>
+    <string name="first_run_message">Choisissez comment les articles sont gérés. Vous pourrez changer cela plus tard dans les paramètres.</string>
+    <string name="mode_local_title">Enregistrer localement</string>
+    <string name="mode_local_desc">Télécharger et conserver le texte complet des articles sur cet appareil. Lecture hors ligne.</string>
+    <string name="mode_online_title">Lire en ligne</string>
+    <string name="mode_online_desc">Ne conserver que les titres ; ouvrir l\'article complet sur le web en appuyant.</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">Lecture &amp; stockage</string>
+    <string name="setting_store_local">Enregistrer les articles localement</string>
+    <string name="setting_store_local_sub">Désactivé = lire les articles en ligne uniquement (les favoris sont toujours conservés)</string>
+    <string name="setting_show_images">Afficher les images dans les articles</string>
+    <string name="setting_show_images_sub">Charger les images des flux (désactivé = texte seul)</string>
+    <string name="images_warning_title">Afficher les images ?</string>
+    <string name="images_warning_message">Les images sont chargées directement depuis les serveurs de chaque flux. Cela révèle votre adresse IP (et votre localisation/réseau approximatifs) à l\'hébergeur de l\'image — cela peut servir à vous suivre. Les favoris déjà enregistrés ne sont pas concernés. Charger quand même les images ?</string>
+    <string name="images_enable">Activer les images</string>
+
+    <string name="setting_refresh_header">Mises à jour en arrière-plan</string>
+    <string name="setting_auto_refresh">Actualiser automatiquement en arrière-plan</string>
+    <string name="setting_auto_refresh_sub">Récupérer régulièrement de nouveaux articles même lorsque l\'application est fermée</string>
+    <string name="setting_push">M\'avertir des nouveaux articles</string>
+    <string name="setting_push_sub">Afficher une notification lorsque l\'actualisation en arrière-plan trouve de nouveaux articles</string>
+    <string name="setting_interval">Intervalle d\'actualisation</string>
+    <string name="setting_about">À propos de l\'application</string>
+    <string name="notif_permission_needed">Autorisez les notifications pour être averti des nouveaux articles</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">Nouveaux articles</string>
+    <string name="channel_new_items_desc">Alertes lorsque l\'actualisation en arrière-plan trouve de nouveaux articles</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d nouvel article</item>
+        <item quantity="other">%d nouveaux articles</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">Confidentialité</string>
+    <string name="privacy">Confidentialité</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">Un lecteur RSS épuré et avancé.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_developer_header">Développeur</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">Aucune connexion Internet</string>
+    <string name="offline_cant_refresh">Vous êtes hors ligne — connectez-vous à Internet pour actualiser</string>
+    <string name="offline_article">Vous êtes hors ligne. Cet article s\'ouvre en ligne — connectez-vous à Internet, puis réessayez.</string>
+    <string name="offline_validate">Vous êtes hors ligne — connectez-vous à Internet pour ajouter un flux</string>
+    <string name="blocked_link">Ce lien a été bloqué pour votre sécurité</string>
+    <string name="web_load_error">Impossible de charger la page</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">Passer à Pro</string>
+    <string name="pro_dialog_message">La version gratuite est limitée à %1$d sources.\n\nObtenez « RSS Reader Advanced Pro » sur Google Play pour des sources illimitées.</string>
+    <string name="pro_get">Obtenir Pro</string>
+    <string name="pro_later">Plus tard</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">Favori</string>
+    <string name="cd_add">Ajouter une source</string>
+</resources>

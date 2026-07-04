@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Nyaste först</item>
+        <item>Äldsta först</item>
+        <item>Titel (A–Ö)</item>
+        <item>Källa (A–Ö)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Var 15:e minut</item>
+        <item>Var 30:e minut</item>
+        <item>Varje timme</item>
+        <item>Var 3:e timme</item>
+        <item>Var 6:e timme</item>
+        <item>En gång om dagen</item>
+    </string-array>
+</resources>

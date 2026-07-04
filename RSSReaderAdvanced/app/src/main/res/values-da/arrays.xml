@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Nyeste først</item>
+        <item>Ældste først</item>
+        <item>Titel (A–Å)</item>
+        <item>Kilde (A–Å)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Hvert 15. minut</item>
+        <item>Hvert 30. minut</item>
+        <item>Hver time</item>
+        <item>Hver 3. time</item>
+        <item>Hver 6. time</item>
+        <item>En gang om dagen</item>
+    </string-array>
+</resources>

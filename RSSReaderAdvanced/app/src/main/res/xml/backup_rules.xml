@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Auto Backup rules for Android 11 (API 30) and lower.
+   Backs up the user's data (feed database + settings) so it is restored on
+   reinstall / new device. See:
+   https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <include domain="database" path="rssreader.db" />
+    <include domain="sharedpref" path="rss_prefs.xml" />
+</full-backup-content>

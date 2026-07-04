@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>ใหม่สุดก่อน</item>
+        <item>เก่าสุดก่อน</item>
+        <item>ชื่อเรื่อง (A–Z)</item>
+        <item>แหล่งข่าว (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>ทุก 15 นาที</item>
+        <item>ทุก 30 นาที</item>
+        <item>ทุกชั่วโมง</item>
+        <item>ทุก 3 ชั่วโมง</item>
+        <item>ทุก 6 ชั่วโมง</item>
+        <item>วันละครั้ง</item>
+    </string-array>
+</resources>

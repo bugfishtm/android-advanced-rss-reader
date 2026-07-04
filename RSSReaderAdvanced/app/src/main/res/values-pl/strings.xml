@@ -1,0 +1,126 @@
+<resources>
+    <string name="nav_all">Wszystkie artykuły</string>
+    <string name="nav_sources">Źródła</string>
+    <string name="nav_favorites">Ulubione</string>
+
+    <string name="title_add_source">Dodaj źródło</string>
+    <string name="title_edit_source">Edytuj źródło</string>
+    <string name="title_settings">Ustawienia</string>
+    <string name="title_about">O aplikacji</string>
+
+    <string name="refresh_all">Odśwież wszystko</string>
+    <string name="add">Dodaj</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="delete">Usuń</string>
+    <string name="edit">Edytuj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="about">O aplikacji</string>
+    <string name="open_in_browser">Otwórz w przeglądarce</string>
+    <string name="share">Udostępnij</string>
+    <string name="send_email">Wyślij e-mailem</string>
+    <string name="copy_link">Kopiuj link</string>
+    <string name="text_larger">Większy tekst</string>
+    <string name="text_smaller">Mniejszy tekst</string>
+    <string name="link_copied">Skopiowano link</string>
+    <string name="no_email_app">Nie znaleziono aplikacji e-mail</string>
+    <string name="search">Szukaj</string>
+    <string name="search_hint">Szukaj artykułów…</string>
+    <string name="mark_all_read">Oznacz wszystkie jako przeczytane</string>
+    <string name="marked_all_read">Oznaczono wszystkie jako przeczytane</string>
+    <string name="import_opml">Importuj kanały (OPML)</string>
+    <string name="export_opml">Eksportuj kanały (OPML)</string>
+    <string name="opml_exported">Wyeksportowano kanały: %1$d</string>
+    <string name="opml_export_failed">Eksport nie powiódł się</string>
+    <string name="opml_imported">Zaimportowano nowe kanały: %1$d</string>
+    <string name="opml_import_none">Nie znaleziono nowych kanałów w tym pliku</string>
+    <string name="opml_import_failed">Nie można odczytać tego pliku OPML</string>
+    <string name="opml_import_limited">Zaimportowano kanały: %1$d. Wersja darmowa jest ograniczona do %2$d — kup Pro, aby mieć bez limitu.</string>
+
+    <string name="sort_by">Sortuj:</string>
+    <string name="filter_by">Źródło:</string>
+    <string name="all_sources">Wszystkie źródła</string>
+    <string name="empty_items">Brak artykułów.\nDodaj źródło i odśwież, aby pobrać artykuły.</string>
+    <string name="empty_favorites">Brak ulubionych.\nDotknij gwiazdki przy artykule, aby zapisać go tutaj.</string>
+    <string name="empty_sources">Brak źródeł.\nDotknij +, aby dodać kanał.</string>
+
+    <string name="add_custom_feed">Własny kanał</string>
+    <string name="source_name">Nazwa</string>
+    <string name="source_url">URL kanału (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Uwaga: dodanie lub odświeżenie kanału łączy Twoje urządzenie z serwerem tego źródła, które może otrzymać Twój adres IP i szczegóły żądania. Zapoznaj się z polityką prywatności i warunkami ochrony danych każdego źródła, aby dowiedzieć się, jak wykorzystują te dane.</string>
+    <string name="from_catalogue">Z katalogu</string>
+    <string name="custom">Własny</string>
+    <string name="items_count">Artykuły: %1$d</string>
+    <string name="refreshing">Odświeżanie…</string>
+    <string name="refresh_done">Nowe artykuły: %1$d · źródła ok: %2$d, błędy: %3$d</string>
+    <string name="refresh_failed">Odświeżanie nie powiodło się</string>
+    <string name="source_refreshed">Nowe artykuły: %1$d</string>
+    <string name="source_refresh_failed">Nie można załadować kanału</string>
+    <string name="url_required">Wprowadź adres URL kanału</string>
+    <string name="source_exists">Ten kanał jest już wśród Twoich źródeł</string>
+    <string name="source_added">Dodano źródło</string>
+    <string name="delete_source_q">Usunąć to źródło i jego artykuły? Ulubione zostaną zachowane.</string>
+    <string name="validating">Sprawdzanie kanału…</string>
+    <string name="invalid_feed">Nie można odczytać tego kanału. Sprawdź adres URL.</string>
+
+    <string name="favorited">Zapisano w ulubionych</string>
+    <string name="unfavorited">Usunięto z ulubionych</string>
+    <string name="no_content_online">Ten artykuł czyta się online. Dotknij, aby otworzyć.</string>
+    <string name="by_author">%1$s</string>
+
+    <string name="first_run_title">Jak chcesz czytać?</string>
+    <string name="first_run_message">Wybierz sposób obsługi artykułów. Możesz to zmienić później w Ustawieniach.</string>
+    <string name="mode_local_title">Zapisuj lokalnie</string>
+    <string name="mode_local_desc">Pobieraj i przechowuj pełną treść artykułów na tym urządzeniu. Czytaj offline.</string>
+    <string name="mode_online_title">Czytaj online</string>
+    <string name="mode_online_desc">Zachowuj tylko nagłówki; otwieraj pełny artykuł w internecie po dotknięciu.</string>
+
+    <string name="setting_storage_header">Czytanie i pamięć</string>
+    <string name="setting_store_local">Zapisuj artykuły lokalnie</string>
+    <string name="setting_store_local_sub">Wył. = czytaj artykuły tylko online (ulubione są zawsze zachowywane)</string>
+    <string name="setting_show_images">Pokaż obrazy w artykułach</string>
+    <string name="setting_show_images_sub">Ładuj obrazy z kanałów (wył. = tylko tekst)</string>
+    <string name="images_warning_title">Pokazać obrazy?</string>
+    <string name="images_warning_message">Obrazy są ładowane bezpośrednio z serwerów każdego kanału. Ujawnia to Twój adres IP (oraz przybliżoną lokalizację/sieć) hostowi obrazu — może to posłużyć do śledzenia. Nie dotyczy to już zapisanych ulubionych. Załadować obrazy mimo to?</string>
+    <string name="images_enable">Włącz obrazy</string>
+
+    <string name="setting_refresh_header">Aktualizacje w tle</string>
+    <string name="setting_auto_refresh">Automatyczne odświeżanie w tle</string>
+    <string name="setting_auto_refresh_sub">Okresowo pobieraj nowe artykuły, nawet gdy aplikacja jest zamknięta</string>
+    <string name="setting_push">Powiadamiaj o nowych artykułach</string>
+    <string name="setting_push_sub">Pokaż powiadomienie, gdy odświeżanie w tle znajdzie nowe artykuły</string>
+    <string name="setting_interval">Częstotliwość odświeżania</string>
+    <string name="setting_about">O tej aplikacji</string>
+    <string name="notif_permission_needed">Zezwól na powiadomienia, aby otrzymywać alerty o nowych artykułach</string>
+
+    <string name="channel_new_items">Nowe artykuły</string>
+    <string name="channel_new_items_desc">Alerty, gdy odświeżanie w tle znajdzie nowe artykuły</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d nowy artykuł</item>
+        <item quantity="few">%d nowe artykuły</item>
+        <item quantity="many">%d nowych artykułów</item>
+        <item quantity="other">%d nowych artykułów</item>
+    </plurals>
+
+    <string name="title_privacy">Prywatność</string>
+    <string name="privacy">Prywatność</string>
+
+    <string name="about_app_tagline">Przejrzysty, zaawansowany czytnik RSS.</string>
+    <string name="about_version">Wersja %1$s</string>
+    <string name="about_developer_header">Deweloper</string>
+
+    <string name="no_connection">Brak połączenia z internetem</string>
+    <string name="offline_cant_refresh">Jesteś offline — połącz się z internetem, aby odświeżyć</string>
+    <string name="offline_article">Jesteś offline. Ten artykuł otwiera się online — połącz się z internetem i spróbuj ponownie.</string>
+    <string name="offline_validate">Jesteś offline — połącz się z internetem, aby dodać kanał</string>
+    <string name="blocked_link">Ten link został zablokowany dla Twojego bezpieczeństwa</string>
+    <string name="web_load_error">Nie można załadować strony</string>
+
+    <string name="pro_dialog_title">Przejdź na Pro</string>
+    <string name="pro_dialog_message">Wersja darmowa jest ograniczona do %1$d źródeł.\n\nPobierz „RSS Reader Advanced Pro” w Google Play, aby mieć źródła bez limitu.</string>
+    <string name="pro_get">Kup Pro</string>
+    <string name="pro_later">Nie teraz</string>
+
+    <string name="cd_favorite">Ulubiony</string>
+    <string name="cd_add">Dodaj źródło</string>
+</resources>

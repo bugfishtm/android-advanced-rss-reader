@@ -1,0 +1,123 @@
+<resources>
+    <string name="nav_all">บทความทั้งหมด</string>
+    <string name="nav_sources">แหล่งข่าว</string>
+    <string name="nav_favorites">รายการโปรด</string>
+
+    <string name="title_add_source">เพิ่มแหล่งข่าว</string>
+    <string name="title_edit_source">แก้ไขแหล่งข่าว</string>
+    <string name="title_settings">การตั้งค่า</string>
+    <string name="title_about">เกี่ยวกับ</string>
+
+    <string name="refresh_all">รีเฟรชทั้งหมด</string>
+    <string name="add">เพิ่ม</string>
+    <string name="save">บันทึก</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="delete">ลบ</string>
+    <string name="edit">แก้ไข</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="open_in_browser">เปิดในเบราว์เซอร์</string>
+    <string name="share">แชร์</string>
+    <string name="send_email">ส่งทางอีเมล</string>
+    <string name="copy_link">คัดลอกลิงก์</string>
+    <string name="text_larger">ตัวอักษรใหญ่ขึ้น</string>
+    <string name="text_smaller">ตัวอักษรเล็กลง</string>
+    <string name="link_copied">คัดลอกลิงก์แล้ว</string>
+    <string name="no_email_app">ไม่พบแอปอีเมล</string>
+    <string name="search">ค้นหา</string>
+    <string name="search_hint">ค้นหาบทความ…</string>
+    <string name="mark_all_read">ทำเครื่องหมายว่าอ่านแล้วทั้งหมด</string>
+    <string name="marked_all_read">ทำเครื่องหมายว่าอ่านแล้วทั้งหมด</string>
+    <string name="import_opml">นำเข้าฟีด (OPML)</string>
+    <string name="export_opml">ส่งออกฟีด (OPML)</string>
+    <string name="opml_exported">ส่งออก %1$d ฟีดแล้ว</string>
+    <string name="opml_export_failed">ส่งออกไม่สำเร็จ</string>
+    <string name="opml_imported">นำเข้า %1$d ฟีดใหม่แล้ว</string>
+    <string name="opml_import_none">ไม่พบฟีดใหม่ในไฟล์นั้น</string>
+    <string name="opml_import_failed">ไม่สามารถอ่านไฟล์ OPML นั้นได้</string>
+    <string name="opml_import_limited">นำเข้า %1$d ฟีดแล้ว รุ่นฟรีจำกัดที่ %2$d — รับ Pro เพื่อไม่จำกัด</string>
+
+    <string name="sort_by">จัดเรียง:</string>
+    <string name="filter_by">แหล่งข่าว:</string>
+    <string name="all_sources">แหล่งข่าวทั้งหมด</string>
+    <string name="empty_items">ยังไม่มีบทความ\nเพิ่มแหล่งข่าวแล้วรีเฟรชเพื่อดึงบทความ</string>
+    <string name="empty_favorites">ยังไม่มีรายการโปรด\nแตะดาวบนบทความใดก็ได้เพื่อบันทึกไว้ที่นี่</string>
+    <string name="empty_sources">ยังไม่มีแหล่งข่าว\nแตะ + เพื่อเพิ่มฟีด</string>
+
+    <string name="add_custom_feed">ฟีดกำหนดเอง</string>
+    <string name="source_name">ชื่อ</string>
+    <string name="source_url">URL ฟีด (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">หมายเหตุ: การเพิ่มหรือรีเฟรชฟีดจะเชื่อมต่ออุปกรณ์ของคุณกับเซิร์ฟเวอร์ของแหล่งข่าวนั้น ซึ่งอาจได้รับที่อยู่ IP และรายละเอียดคำขอของคุณ โปรดอ่านนโยบายความเป็นส่วนตัวและข้อกำหนดการคุ้มครองข้อมูลของแต่ละแหล่งข่าวเพื่อดูว่าพวกเขาใช้ข้อมูลนี้อย่างไร</string>
+    <string name="from_catalogue">จากแคตตาล็อก</string>
+    <string name="custom">กำหนดเอง</string>
+    <string name="items_count">%1$d บทความ</string>
+    <string name="refreshing">กำลังรีเฟรช…</string>
+    <string name="refresh_done">บทความใหม่ %1$d · แหล่งข่าวสำเร็จ %2$d, ล้มเหลว %3$d</string>
+    <string name="refresh_failed">รีเฟรชไม่สำเร็จ</string>
+    <string name="source_refreshed">บทความใหม่ %1$d</string>
+    <string name="source_refresh_failed">ไม่สามารถโหลดฟีดได้</string>
+    <string name="url_required">โปรดป้อน URL ฟีด</string>
+    <string name="source_exists">ฟีดนั้นอยู่ในแหล่งข่าวของคุณแล้ว</string>
+    <string name="source_added">เพิ่มแหล่งข่าวแล้ว</string>
+    <string name="delete_source_q">ลบแหล่งข่าวนี้และบทความหรือไม่ รายการโปรดจะยังคงอยู่</string>
+    <string name="validating">กำลังตรวจสอบฟีด…</string>
+    <string name="invalid_feed">ไม่สามารถอ่านฟีดนั้นได้ ตรวจสอบ URL</string>
+
+    <string name="favorited">บันทึกไปยังรายการโปรดแล้ว</string>
+    <string name="unfavorited">นำออกจากรายการโปรดแล้ว</string>
+    <string name="no_content_online">บทความนี้อ่านแบบออนไลน์ แตะเพื่อเปิด</string>
+    <string name="by_author">โดย %1$s</string>
+
+    <string name="first_run_title">คุณต้องการอ่านแบบใด?</string>
+    <string name="first_run_message">เลือกวิธีจัดการบทความ คุณเปลี่ยนได้ภายหลังในการตั้งค่า</string>
+    <string name="mode_local_title">บันทึกในเครื่อง</string>
+    <string name="mode_local_desc">ดาวน์โหลดและเก็บเนื้อหาบทความทั้งหมดไว้ในอุปกรณ์นี้ อ่านแบบออฟไลน์ได้</string>
+    <string name="mode_online_title">อ่านออนไลน์</string>
+    <string name="mode_online_desc">เก็บเฉพาะหัวข้อ เปิดบทความเต็มบนเว็บเมื่อแตะ</string>
+
+    <string name="setting_storage_header">การอ่านและการจัดเก็บ</string>
+    <string name="setting_store_local">บันทึกบทความในเครื่อง</string>
+    <string name="setting_store_local_sub">ปิด = อ่านบทความแบบออนไลน์เท่านั้น (รายการโปรดจะถูกเก็บไว้เสมอ)</string>
+    <string name="setting_show_images">แสดงรูปภาพในบทความ</string>
+    <string name="setting_show_images_sub">โหลดรูปภาพจากฟีด (ปิด = ข้อความเท่านั้น)</string>
+    <string name="images_warning_title">แสดงรูปภาพหรือไม่?</string>
+    <string name="images_warning_message">รูปภาพจะถูกโหลดโดยตรงจากเซิร์ฟเวอร์ของแต่ละฟีด การทำเช่นนี้จะเปิดเผยที่อยู่ IP ของคุณ (และตำแหน่ง/เครือข่ายโดยประมาณ) แก่ผู้โฮสต์รูปภาพ ซึ่งอาจใช้ติดตามคุณได้ รายการโปรดที่บันทึกไว้แล้วจะไม่ได้รับผลกระทบ ต้องการโหลดรูปภาพต่อไปหรือไม่?</string>
+    <string name="images_enable">เปิดใช้รูปภาพ</string>
+
+    <string name="setting_refresh_header">การอัปเดตเบื้องหลัง</string>
+    <string name="setting_auto_refresh">รีเฟรชอัตโนมัติในเบื้องหลัง</string>
+    <string name="setting_auto_refresh_sub">ดึงบทความใหม่เป็นระยะแม้ปิดแอปอยู่</string>
+    <string name="setting_push">แจ้งเตือนฉันเกี่ยวกับบทความใหม่</string>
+    <string name="setting_push_sub">แสดงการแจ้งเตือนเมื่อการรีเฟรชเบื้องหลังพบบทความใหม่</string>
+    <string name="setting_interval">ช่วงเวลารีเฟรช</string>
+    <string name="setting_about">เกี่ยวกับแอปนี้</string>
+    <string name="notif_permission_needed">อนุญาตการแจ้งเตือนเพื่อรับการแจ้งเตือนบทความใหม่</string>
+
+    <string name="channel_new_items">บทความใหม่</string>
+    <string name="channel_new_items_desc">การแจ้งเตือนเมื่อการรีเฟรชเบื้องหลังพบบทความใหม่</string>
+    <plurals name="new_items_notification">
+        <item quantity="other">บทความใหม่ %d</item>
+    </plurals>
+
+    <string name="title_privacy">ความเป็นส่วนตัว</string>
+    <string name="privacy">ความเป็นส่วนตัว</string>
+
+    <string name="about_app_tagline">โปรแกรมอ่าน RSS ที่สะอาดตาและทรงพลัง</string>
+    <string name="about_version">เวอร์ชัน %1$s</string>
+    <string name="about_developer_header">ผู้พัฒนา</string>
+
+    <string name="no_connection">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="offline_cant_refresh">คุณออฟไลน์อยู่ — เชื่อมต่ออินเทอร์เน็ตเพื่อรีเฟรช</string>
+    <string name="offline_article">คุณออฟไลน์อยู่ บทความนี้เปิดแบบออนไลน์ — เชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง</string>
+    <string name="offline_validate">คุณออฟไลน์อยู่ — เชื่อมต่ออินเทอร์เน็ตเพื่อเพิ่มฟีด</string>
+    <string name="blocked_link">ลิงก์นี้ถูกบล็อกเพื่อความปลอดภัยของคุณ</string>
+    <string name="web_load_error">ไม่สามารถโหลดหน้าเว็บได้</string>
+
+    <string name="pro_dialog_title">อัปเกรดเป็น Pro</string>
+    <string name="pro_dialog_message">รุ่นฟรีจำกัดที่ %1$d แหล่งข่าว\n\nรับ \"RSS Reader Advanced Pro\" บน Google Play เพื่อแหล่งข่าวไม่จำกัด</string>
+    <string name="pro_get">รับ Pro</string>
+    <string name="pro_later">ไว้ก่อน</string>
+
+    <string name="cd_favorite">รายการโปรด</string>
+    <string name="cd_add">เพิ่มแหล่งข่าว</string>
+</resources>

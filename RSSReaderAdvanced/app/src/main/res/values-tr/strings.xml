@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Tüm makaleler</string>
+    <string name="nav_sources">Kaynaklar</string>
+    <string name="nav_favorites">Favoriler</string>
+
+    <string name="title_add_source">Kaynak ekle</string>
+    <string name="title_edit_source">Kaynağı düzenle</string>
+    <string name="title_settings">Ayarlar</string>
+    <string name="title_about">Hakkında</string>
+
+    <string name="refresh_all">Tümünü yenile</string>
+    <string name="add">Ekle</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about">Hakkında</string>
+    <string name="open_in_browser">Tarayıcıda aç</string>
+    <string name="share">Paylaş</string>
+    <string name="send_email">E-posta ile gönder</string>
+    <string name="copy_link">Bağlantıyı kopyala</string>
+    <string name="text_larger">Daha büyük yazı</string>
+    <string name="text_smaller">Daha küçük yazı</string>
+    <string name="link_copied">Bağlantı kopyalandı</string>
+    <string name="no_email_app">E-posta uygulaması bulunamadı</string>
+    <string name="search">Ara</string>
+    <string name="search_hint">Makale ara…</string>
+    <string name="mark_all_read">Tümünü okundu işaretle</string>
+    <string name="marked_all_read">Tümü okundu olarak işaretlendi</string>
+    <string name="import_opml">Akışları içe aktar (OPML)</string>
+    <string name="export_opml">Akışları dışa aktar (OPML)</string>
+    <string name="opml_exported">%1$d akış dışa aktarıldı</string>
+    <string name="opml_export_failed">Dışa aktarma başarısız</string>
+    <string name="opml_imported">%1$d yeni akış içe aktarıldı</string>
+    <string name="opml_import_none">Bu dosyada yeni akış bulunamadı</string>
+    <string name="opml_import_failed">Bu OPML dosyası okunamadı</string>
+    <string name="opml_import_limited">%1$d akış içe aktarıldı. Ücretsiz sürüm %2$d ile sınırlıdır — sınırsız için Pro\'ya geçin.</string>
+
+    <string name="sort_by">Sırala:</string>
+    <string name="filter_by">Kaynak:</string>
+    <string name="all_sources">Tüm kaynaklar</string>
+    <string name="empty_items">Henüz makale yok.\nMakale almak için bir kaynak ekleyin ve yenileyin.</string>
+    <string name="empty_favorites">Henüz favori yok.\nBuraya kaydetmek için bir makaledeki yıldıza dokunun.</string>
+    <string name="empty_sources">Henüz kaynak yok.\nBir akış eklemek için + simgesine dokunun.</string>
+
+    <string name="add_custom_feed">Özel akış</string>
+    <string name="source_name">Ad</string>
+    <string name="source_url">Akış URL\'si (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Not: bir akış eklemek veya yenilemek cihazınızı o kaynağın sunucusuna bağlar; bu sunucu IP adresinizi ve istek ayrıntılarını alabilir. Bu verilerin nasıl kullanıldığını öğrenmek için her kaynağın kendi gizlilik politikasını ve veri koruma koşullarını inceleyin.</string>
+    <string name="from_catalogue">Katalogdan</string>
+    <string name="custom">Özel</string>
+    <string name="items_count">%1$d makale</string>
+    <string name="refreshing">Yenileniyor…</string>
+    <string name="refresh_done">%1$d yeni makale · %2$d kaynak tamam, %3$d başarısız</string>
+    <string name="refresh_failed">Yenileme başarısız</string>
+    <string name="source_refreshed">%1$d yeni makale</string>
+    <string name="source_refresh_failed">Akış yüklenemedi</string>
+    <string name="url_required">Lütfen bir akış URL\'si girin</string>
+    <string name="source_exists">Bu akış zaten kaynaklarınızda</string>
+    <string name="source_added">Kaynak eklendi</string>
+    <string name="delete_source_q">Bu kaynak ve makaleleri silinsin mi? Favoriler korunur.</string>
+    <string name="validating">Akış kontrol ediliyor…</string>
+    <string name="invalid_feed">Bu akış okunamadı. URL\'yi kontrol edin.</string>
+
+    <string name="favorited">Favorilere kaydedildi</string>
+    <string name="unfavorited">Favorilerden kaldırıldı</string>
+    <string name="no_content_online">Bu makale çevrimiçi okunur. Açmak için dokunun.</string>
+    <string name="by_author">%1$s</string>
+
+    <string name="first_run_title">Nasıl okumak istersiniz?</string>
+    <string name="first_run_message">Makalelerin nasıl işleneceğini seçin. Bunu daha sonra Ayarlar\'dan değiştirebilirsiniz.</string>
+    <string name="mode_local_title">Yerel olarak kaydet</string>
+    <string name="mode_local_desc">Makale metinlerinin tamamını bu cihaza indirip saklayın. Çevrimdışı okuyun.</string>
+    <string name="mode_online_title">Çevrimiçi oku</string>
+    <string name="mode_online_desc">Yalnızca başlıkları saklayın; dokununca makalenin tamamını web\'de açın.</string>
+
+    <string name="setting_storage_header">Okuma ve depolama</string>
+    <string name="setting_store_local">Makaleleri yerel olarak kaydet</string>
+    <string name="setting_store_local_sub">Kapalı = makaleleri yalnızca çevrimiçi okuyun (favoriler her zaman saklanır)</string>
+    <string name="setting_show_images">Makalelerde resimleri göster</string>
+    <string name="setting_show_images_sub">Akışlardaki resimleri yükle (kapalı = yalnızca metin)</string>
+    <string name="images_warning_title">Resimler gösterilsin mi?</string>
+    <string name="images_warning_message">Resimler doğrudan her akışın sunucularından yüklenir. Bu, IP adresinizi (ve yaklaşık konum/ağ bilginizi) resmi barındıran tarafa açık eder — bu sizi izlemek için kullanılabilir. Daha önce kaydettiğiniz favoriler etkilenmez. Yine de resimler yüklensin mi?</string>
+    <string name="images_enable">Resimleri etkinleştir</string>
+
+    <string name="setting_refresh_header">Arka planda güncellemeler</string>
+    <string name="setting_auto_refresh">Arka planda otomatik yenile</string>
+    <string name="setting_auto_refresh_sub">Uygulama kapalıyken bile düzenli olarak yeni makaleler al</string>
+    <string name="setting_push">Yeni makaleleri bana bildir</string>
+    <string name="setting_push_sub">Arka plan yenilemesi yeni makale bulduğunda bir bildirim göster</string>
+    <string name="setting_interval">Yenileme aralığı</string>
+    <string name="setting_about">Bu uygulama hakkında</string>
+    <string name="notif_permission_needed">Yeni makale uyarıları almak için bildirimlere izin verin</string>
+
+    <string name="channel_new_items">Yeni makaleler</string>
+    <string name="channel_new_items_desc">Arka plan yenilemesi yeni makale bulduğunda uyarılar</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d yeni makale</item>
+        <item quantity="other">%d yeni makale</item>
+    </plurals>
+
+    <string name="title_privacy">Gizlilik</string>
+    <string name="privacy">Gizlilik</string>
+
+    <string name="about_app_tagline">Sade ve gelişmiş bir RSS okuyucu.</string>
+    <string name="about_version">Sürüm %1$s</string>
+    <string name="about_developer_header">Geliştirici</string>
+
+    <string name="no_connection">İnternet bağlantısı yok</string>
+    <string name="offline_cant_refresh">Çevrimdışısınız — yenilemek için internete bağlanın</string>
+    <string name="offline_article">Çevrimdışısınız. Bu makale çevrimiçi açılır — internete bağlanıp tekrar deneyin.</string>
+    <string name="offline_validate">Çevrimdışısınız — akış eklemek için internete bağlanın</string>
+    <string name="blocked_link">Bu bağlantı güvenliğiniz için engellendi</string>
+    <string name="web_load_error">Sayfa yüklenemedi</string>
+
+    <string name="pro_dialog_title">Pro\'ya yükselt</string>
+    <string name="pro_dialog_message">Ücretsiz sürüm %1$d kaynakla sınırlıdır.\n\nSınırsız kaynak için Google Play\'den \"RSS Reader Advanced Pro\" edinin.</string>
+    <string name="pro_get">Pro edin</string>
+    <string name="pro_later">Şimdi değil</string>
+
+    <string name="cd_favorite">Favori</string>
+    <string name="cd_add">Kaynak ekle</string>
+</resources>

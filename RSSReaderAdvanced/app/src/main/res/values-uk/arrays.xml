@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Спочатку новіші</item>
+        <item>Спочатку старіші</item>
+        <item>За назвою (А–Я)</item>
+        <item>За джерелом (А–Я)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Кожні 15 хвилин</item>
+        <item>Кожні 30 хвилин</item>
+        <item>Щогодини</item>
+        <item>Кожні 3 години</item>
+        <item>Кожні 6 годин</item>
+        <item>Раз на день</item>
+    </string-array>
+</resources>

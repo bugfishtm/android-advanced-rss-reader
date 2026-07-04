@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Όλα τα άρθρα</string>
+    <string name="nav_sources">Πηγές</string>
+    <string name="nav_favorites">Αγαπημένα</string>
+
+    <string name="title_add_source">Προσθήκη πηγής</string>
+    <string name="title_edit_source">Επεξεργασία πηγής</string>
+    <string name="title_settings">Ρυθμίσεις</string>
+    <string name="title_about">Σχετικά</string>
+
+    <string name="refresh_all">Ανανέωση όλων</string>
+    <string name="add">Προσθήκη</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="about">Σχετικά</string>
+    <string name="open_in_browser">Άνοιγμα στο πρόγραμμα περιήγησης</string>
+    <string name="share">Κοινοποίηση</string>
+    <string name="send_email">Αποστολή με email</string>
+    <string name="copy_link">Αντιγραφή συνδέσμου</string>
+    <string name="text_larger">Μεγαλύτερο κείμενο</string>
+    <string name="text_smaller">Μικρότερο κείμενο</string>
+    <string name="link_copied">Ο σύνδεσμος αντιγράφηκε</string>
+    <string name="no_email_app">Δεν βρέθηκε εφαρμογή email</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="search_hint">Αναζήτηση άρθρων…</string>
+    <string name="mark_all_read">Επισήμανση όλων ως αναγνωσμένα</string>
+    <string name="marked_all_read">Όλα επισημάνθηκαν ως αναγνωσμένα</string>
+    <string name="import_opml">Εισαγωγή ροών (OPML)</string>
+    <string name="export_opml">Εξαγωγή ροών (OPML)</string>
+    <string name="opml_exported">Εξήχθησαν %1$d ροές</string>
+    <string name="opml_export_failed">Η εξαγωγή απέτυχε</string>
+    <string name="opml_imported">Εισήχθησαν %1$d νέες ροές</string>
+    <string name="opml_import_none">Δεν βρέθηκαν νέες ροές σε αυτό το αρχείο</string>
+    <string name="opml_import_failed">Δεν ήταν δυνατή η ανάγνωση αυτού του αρχείου OPML</string>
+    <string name="opml_import_limited">Εισήχθησαν %1$d ροές. Η δωρεάν έκδοση περιορίζεται σε %2$d — αποκτήστε Pro για απεριόριστες.</string>
+
+    <string name="sort_by">Ταξινόμηση:</string>
+    <string name="filter_by">Πηγή:</string>
+    <string name="all_sources">Όλες οι πηγές</string>
+    <string name="empty_items">Δεν υπάρχουν άρθρα ακόμα.\nΠροσθέστε μια πηγή και ανανεώστε για να φορτωθούν άρθρα.</string>
+    <string name="empty_favorites">Δεν υπάρχουν αγαπημένα ακόμα.\nΠατήστε το αστέρι σε ένα άρθρο για να το αποθηκεύσετε εδώ.</string>
+    <string name="empty_sources">Δεν υπάρχουν πηγές ακόμα.\nΠατήστε + για να προσθέσετε μια ροή.</string>
+
+    <string name="add_custom_feed">Προσαρμοσμένη ροή</string>
+    <string name="source_name">Όνομα</string>
+    <string name="source_url">URL ροής (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Σημείωση: η προσθήκη ή ανανέωση μιας ροής συνδέει τη συσκευή σας με τον διακομιστή αυτής της πηγής, ο οποίος μπορεί να λάβει τη διεύθυνση IP σας και τα στοιχεία του αιτήματος. Δείτε την πολιτική απορρήτου και τους όρους προστασίας δεδομένων κάθε πηγής για το πώς χρησιμοποιούν αυτά τα δεδομένα.</string>
+    <string name="from_catalogue">Από τον κατάλογο</string>
+    <string name="custom">Προσαρμοσμένη</string>
+    <string name="items_count">%1$d άρθρα</string>
+    <string name="refreshing">Ανανέωση…</string>
+    <string name="refresh_done">%1$d νέα άρθρα · %2$d πηγές ok, %3$d απέτυχαν</string>
+    <string name="refresh_failed">Η ανανέωση απέτυχε</string>
+    <string name="source_refreshed">%1$d νέα άρθρα</string>
+    <string name="source_refresh_failed">Δεν ήταν δυνατή η φόρτωση της ροής</string>
+    <string name="url_required">Εισαγάγετε ένα URL ροής</string>
+    <string name="source_exists">Αυτή η ροή υπάρχει ήδη στις πηγές σας</string>
+    <string name="source_added">Η πηγή προστέθηκε</string>
+    <string name="delete_source_q">Διαγραφή αυτής της πηγής και των άρθρων της; Τα αγαπημένα διατηρούνται.</string>
+    <string name="validating">Έλεγχος ροής…</string>
+    <string name="invalid_feed">Δεν ήταν δυνατή η ανάγνωση αυτής της ροής. Ελέγξτε το URL.</string>
+
+    <string name="favorited">Αποθηκεύτηκε στα αγαπημένα</string>
+    <string name="unfavorited">Αφαιρέθηκε από τα αγαπημένα</string>
+    <string name="no_content_online">Αυτό το άρθρο διαβάζεται online. Πατήστε για άνοιγμα.</string>
+    <string name="by_author">από %1$s</string>
+
+    <string name="first_run_title">Πώς θέλετε να διαβάζετε;</string>
+    <string name="first_run_message">Επιλέξτε πώς θα διαχειρίζονται τα άρθρα. Μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις.</string>
+    <string name="mode_local_title">Τοπική αποθήκευση</string>
+    <string name="mode_local_desc">Λήψη και διατήρηση του πλήρους κειμένου των άρθρων σε αυτή τη συσκευή. Διαβάστε εκτός σύνδεσης.</string>
+    <string name="mode_online_title">Ανάγνωση online</string>
+    <string name="mode_online_desc">Διατήρηση μόνο των τίτλων· άνοιγμα του πλήρους άρθρου στον ιστό όταν το πατάτε.</string>
+
+    <string name="setting_storage_header">Ανάγνωση &amp; αποθήκευση</string>
+    <string name="setting_store_local">Τοπική αποθήκευση άρθρων</string>
+    <string name="setting_store_local_sub">Ανενεργό = ανάγνωση άρθρων μόνο online (τα αγαπημένα διατηρούνται πάντα)</string>
+    <string name="setting_show_images">Εμφάνιση εικόνων στα άρθρα</string>
+    <string name="setting_show_images_sub">Φόρτωση εικόνων από τις ροές (ανενεργό = μόνο κείμενο)</string>
+    <string name="images_warning_title">Εμφάνιση εικόνων;</string>
+    <string name="images_warning_message">Οι εικόνες φορτώνονται απευθείας από τους διακομιστές κάθε ροής. Έτσι, η διεύθυνση IP σας (και η κατά προσέγγιση τοποθεσία/δίκτυο) αποκαλύπτεται σε όποιον φιλοξενεί την εικόνα — μπορεί να χρησιμοποιηθεί για την παρακολούθησή σας. Τα ήδη αποθηκευμένα αγαπημένα δεν επηρεάζονται. Φόρτωση εικόνων ούτως ή άλλως;</string>
+    <string name="images_enable">Ενεργοποίηση εικόνων</string>
+
+    <string name="setting_refresh_header">Ενημερώσεις στο παρασκήνιο</string>
+    <string name="setting_auto_refresh">Αυτόματη ανανέωση στο παρασκήνιο</string>
+    <string name="setting_auto_refresh_sub">Λήψη νέων άρθρων περιοδικά, ακόμη και όταν η εφαρμογή είναι κλειστή</string>
+    <string name="setting_push">Ειδοποίηση για νέα άρθρα</string>
+    <string name="setting_push_sub">Εμφάνιση ειδοποίησης όταν η ανανέωση στο παρασκήνιο βρίσκει νέα άρθρα</string>
+    <string name="setting_interval">Διάστημα ανανέωσης</string>
+    <string name="setting_about">Σχετικά με αυτή την εφαρμογή</string>
+    <string name="notif_permission_needed">Επιτρέψτε τις ειδοποιήσεις για να λαμβάνετε ειδοποιήσεις για νέα άρθρα</string>
+
+    <string name="channel_new_items">Νέα άρθρα</string>
+    <string name="channel_new_items_desc">Ειδοποιήσεις όταν η ανανέωση στο παρασκήνιο βρίσκει νέα άρθρα</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d νέο άρθρο</item>
+        <item quantity="other">%d νέα άρθρα</item>
+    </plurals>
+
+    <string name="title_privacy">Απόρρητο</string>
+    <string name="privacy">Απόρρητο</string>
+
+    <string name="about_app_tagline">Ένα καθαρό και προηγμένο πρόγραμμα ανάγνωσης RSS.</string>
+    <string name="about_version">Έκδοση %1$s</string>
+    <string name="about_developer_header">Προγραμματιστής</string>
+
+    <string name="no_connection">Καμία σύνδεση στο διαδίκτυο</string>
+    <string name="offline_cant_refresh">Είστε εκτός σύνδεσης — συνδεθείτε στο διαδίκτυο για ανανέωση</string>
+    <string name="offline_article">Είστε εκτός σύνδεσης. Αυτό το άρθρο ανοίγει online — συνδεθείτε στο διαδίκτυο και δοκιμάστε ξανά.</string>
+    <string name="offline_validate">Είστε εκτός σύνδεσης — συνδεθείτε στο διαδίκτυο για να προσθέσετε μια ροή</string>
+    <string name="blocked_link">Αυτός ο σύνδεσμος αποκλείστηκε για την ασφάλειά σας</string>
+    <string name="web_load_error">Δεν ήταν δυνατή η φόρτωση της σελίδας</string>
+
+    <string name="pro_dialog_title">Αναβάθμιση σε Pro</string>
+    <string name="pro_dialog_message">Η δωρεάν έκδοση περιορίζεται σε %1$d πηγές.\n\nΑποκτήστε το \"RSS Reader Advanced Pro\" στο Google Play για απεριόριστες πηγές.</string>
+    <string name="pro_get">Απόκτηση Pro</string>
+    <string name="pro_later">Όχι τώρα</string>
+
+    <string name="cd_favorite">Αγαπημένο</string>
+    <string name="cd_add">Προσθήκη πηγής</string>
+</resources>

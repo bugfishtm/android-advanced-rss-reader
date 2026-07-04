@@ -1,0 +1,125 @@
+<resources>
+    <string name="nav_all">Toate articolele</string>
+    <string name="nav_sources">Surse</string>
+    <string name="nav_favorites">Favorite</string>
+
+    <string name="title_add_source">Adaugă sursă</string>
+    <string name="title_edit_source">Editează sursa</string>
+    <string name="title_settings">Setări</string>
+    <string name="title_about">Despre</string>
+
+    <string name="refresh_all">Reîmprospătează tot</string>
+    <string name="add">Adaugă</string>
+    <string name="save">Salvează</string>
+    <string name="cancel">Anulează</string>
+    <string name="delete">Șterge</string>
+    <string name="edit">Editează</string>
+    <string name="settings">Setări</string>
+    <string name="about">Despre</string>
+    <string name="open_in_browser">Deschide în browser</string>
+    <string name="share">Distribuie</string>
+    <string name="send_email">Trimite prin e-mail</string>
+    <string name="copy_link">Copiază linkul</string>
+    <string name="text_larger">Text mai mare</string>
+    <string name="text_smaller">Text mai mic</string>
+    <string name="link_copied">Link copiat</string>
+    <string name="no_email_app">Nicio aplicație de e-mail găsită</string>
+    <string name="search">Caută</string>
+    <string name="search_hint">Caută articole…</string>
+    <string name="mark_all_read">Marchează tot ca citit</string>
+    <string name="marked_all_read">Tot a fost marcat ca citit</string>
+    <string name="import_opml">Importă fluxuri (OPML)</string>
+    <string name="export_opml">Exportă fluxuri (OPML)</string>
+    <string name="opml_exported">%1$d fluxuri exportate</string>
+    <string name="opml_export_failed">Exportul a eșuat</string>
+    <string name="opml_imported">%1$d fluxuri noi importate</string>
+    <string name="opml_import_none">Niciun flux nou găsit în acel fișier</string>
+    <string name="opml_import_failed">Nu s-a putut citi acel fișier OPML</string>
+    <string name="opml_import_limited">%1$d fluxuri importate. Versiunea gratuită este limitată la %2$d — treci la Pro pentru fluxuri nelimitate.</string>
+
+    <string name="sort_by">Sortează:</string>
+    <string name="filter_by">Sursă:</string>
+    <string name="all_sources">Toate sursele</string>
+    <string name="empty_items">Încă niciun articol.\nAdaugă o sursă și reîmprospătează pentru a încărca articole.</string>
+    <string name="empty_favorites">Încă niciun favorit.\nApasă steaua unui articol pentru a-l salva aici.</string>
+    <string name="empty_sources">Încă nicio sursă.\nApasă + pentru a adăuga un flux.</string>
+
+    <string name="add_custom_feed">Flux personalizat</string>
+    <string name="source_name">Nume</string>
+    <string name="source_url">URL flux (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Notă: adăugarea sau reîmprospătarea unui flux conectează dispozitivul la serverul acelei surse, care poate primi adresa ta IP și detaliile cererii. Consultă politica de confidențialitate și condițiile de protecție a datelor ale fiecărei surse pentru a afla cum folosesc aceste date.</string>
+    <string name="from_catalogue">Din catalog</string>
+    <string name="custom">Personalizat</string>
+    <string name="items_count">%1$d articole</string>
+    <string name="refreshing">Se reîmprospătează…</string>
+    <string name="refresh_done">%1$d articole noi · %2$d surse ok, %3$d eșuate</string>
+    <string name="refresh_failed">Reîmprospătarea a eșuat</string>
+    <string name="source_refreshed">%1$d articole noi</string>
+    <string name="source_refresh_failed">Fluxul nu a putut fi încărcat</string>
+    <string name="url_required">Introdu un URL de flux</string>
+    <string name="source_exists">Acest flux este deja în sursele tale</string>
+    <string name="source_added">Sursă adăugată</string>
+    <string name="delete_source_q">Ștergi această sursă și articolele ei? Favoritele se păstrează.</string>
+    <string name="validating">Se verifică fluxul…</string>
+    <string name="invalid_feed">Fluxul nu a putut fi citit. Verifică URL-ul.</string>
+
+    <string name="favorited">Salvat la favorite</string>
+    <string name="unfavorited">Eliminat din favorite</string>
+    <string name="no_content_online">Acest articol se citește online. Apasă pentru a-l deschide.</string>
+    <string name="by_author">de %1$s</string>
+
+    <string name="first_run_title">Cum vrei să citești?</string>
+    <string name="first_run_message">Alege cum sunt gestionate articolele. Poți schimba mai târziu din Setări.</string>
+    <string name="mode_local_title">Salvează local</string>
+    <string name="mode_local_desc">Descarcă și păstrează textul integral al articolelor pe acest dispozitiv. Citește offline.</string>
+    <string name="mode_online_title">Citește online</string>
+    <string name="mode_online_desc">Păstrează doar titlurile; deschide articolul complet pe web când apeși.</string>
+
+    <string name="setting_storage_header">Citire și stocare</string>
+    <string name="setting_store_local">Salvează articolele local</string>
+    <string name="setting_store_local_sub">Dezactivat = citește articolele doar online (favoritele se păstrează întotdeauna)</string>
+    <string name="setting_show_images">Afișează imagini în articole</string>
+    <string name="setting_show_images_sub">Încarcă imaginile din fluxuri (dezactivat = doar text)</string>
+    <string name="images_warning_title">Afișezi imaginile?</string>
+    <string name="images_warning_message">Imaginile sunt încărcate direct de pe serverele fiecărui flux. Astfel, adresa ta IP (și locația/rețeaua aproximativă) este dezvăluită celui care găzduiește imaginea — poate fi folosită pentru a te urmări. Favoritele deja salvate nu sunt afectate. Încarci totuși imaginile?</string>
+    <string name="images_enable">Activează imaginile</string>
+
+    <string name="setting_refresh_header">Actualizări în fundal</string>
+    <string name="setting_auto_refresh">Reîmprospătare automată în fundal</string>
+    <string name="setting_auto_refresh_sub">Preia periodic articole noi chiar și când aplicația este închisă</string>
+    <string name="setting_push">Anunță-mă despre articole noi</string>
+    <string name="setting_push_sub">Afișează o notificare când reîmprospătarea în fundal găsește articole noi</string>
+    <string name="setting_interval">Interval de reîmprospătare</string>
+    <string name="setting_about">Despre această aplicație</string>
+    <string name="notif_permission_needed">Permite notificările pentru a primi alerte despre articole noi</string>
+
+    <string name="channel_new_items">Articole noi</string>
+    <string name="channel_new_items_desc">Alerte când reîmprospătarea în fundal găsește articole noi</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d articol nou</item>
+        <item quantity="few">%d articole noi</item>
+        <item quantity="other">%d de articole noi</item>
+    </plurals>
+
+    <string name="title_privacy">Confidențialitate</string>
+    <string name="privacy">Confidențialitate</string>
+
+    <string name="about_app_tagline">Un cititor RSS curat și avansat.</string>
+    <string name="about_version">Versiunea %1$s</string>
+    <string name="about_developer_header">Dezvoltator</string>
+
+    <string name="no_connection">Fără conexiune la internet</string>
+    <string name="offline_cant_refresh">Ești offline — conectează-te la internet pentru a reîmprospăta</string>
+    <string name="offline_article">Ești offline. Acest articol se deschide online — conectează-te la internet și încearcă din nou.</string>
+    <string name="offline_validate">Ești offline — conectează-te la internet pentru a adăuga un flux</string>
+    <string name="blocked_link">Acest link a fost blocat pentru siguranța ta</string>
+    <string name="web_load_error">Pagina nu a putut fi încărcată</string>
+
+    <string name="pro_dialog_title">Treci la Pro</string>
+    <string name="pro_dialog_message">Versiunea gratuită este limitată la %1$d surse.\n\nObține „RSS Reader Advanced Pro” din Google Play pentru surse nelimitate.</string>
+    <string name="pro_get">Obține Pro</string>
+    <string name="pro_later">Nu acum</string>
+
+    <string name="cd_favorite">Favorit</string>
+    <string name="cd_add">Adaugă sursă</string>
+</resources>

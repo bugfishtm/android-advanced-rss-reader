@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Legújabb elöl</item>
+        <item>Legrégebbi elöl</item>
+        <item>Cím (A–Z)</item>
+        <item>Forrás (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>15 percenként</item>
+        <item>30 percenként</item>
+        <item>Óránként</item>
+        <item>3 óránként</item>
+        <item>6 óránként</item>
+        <item>Naponta egyszer</item>
+    </string-array>
+</resources>

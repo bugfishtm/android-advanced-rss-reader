@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Összes cikk</string>
+    <string name="nav_sources">Források</string>
+    <string name="nav_favorites">Kedvencek</string>
+
+    <string name="title_add_source">Forrás hozzáadása</string>
+    <string name="title_edit_source">Forrás szerkesztése</string>
+    <string name="title_settings">Beállítások</string>
+    <string name="title_about">Névjegy</string>
+
+    <string name="refresh_all">Összes frissítése</string>
+    <string name="add">Hozzáadás</string>
+    <string name="save">Mentés</string>
+    <string name="cancel">Mégse</string>
+    <string name="delete">Törlés</string>
+    <string name="edit">Szerkesztés</string>
+    <string name="settings">Beállítások</string>
+    <string name="about">Névjegy</string>
+    <string name="open_in_browser">Megnyitás böngészőben</string>
+    <string name="share">Megosztás</string>
+    <string name="send_email">Küldés e-mailben</string>
+    <string name="copy_link">Hivatkozás másolása</string>
+    <string name="text_larger">Nagyobb szöveg</string>
+    <string name="text_smaller">Kisebb szöveg</string>
+    <string name="link_copied">Hivatkozás másolva</string>
+    <string name="no_email_app">Nem található e-mail alkalmazás</string>
+    <string name="search">Keresés</string>
+    <string name="search_hint">Cikkek keresése…</string>
+    <string name="mark_all_read">Összes olvasottként jelölése</string>
+    <string name="marked_all_read">Az összes olvasottként megjelölve</string>
+    <string name="import_opml">Hírcsatornák importálása (OPML)</string>
+    <string name="export_opml">Hírcsatornák exportálása (OPML)</string>
+    <string name="opml_exported">%1$d hírcsatorna exportálva</string>
+    <string name="opml_export_failed">Az exportálás sikertelen</string>
+    <string name="opml_imported">%1$d új hírcsatorna importálva</string>
+    <string name="opml_import_none">Nem található új hírcsatorna a fájlban</string>
+    <string name="opml_import_failed">Nem sikerült beolvasni az OPML-fájlt</string>
+    <string name="opml_import_limited">%1$d hírcsatorna importálva. Az ingyenes verzió %2$d forrásra korlátozott — szerezd be a Prót a korlátlan használatért.</string>
+
+    <string name="sort_by">Rendezés:</string>
+    <string name="filter_by">Forrás:</string>
+    <string name="all_sources">Összes forrás</string>
+    <string name="empty_items">Még nincsenek cikkek.\nAdj hozzá egy forrást, és frissíts a cikkek betöltéséhez.</string>
+    <string name="empty_favorites">Még nincsenek kedvencek.\nÉrintsd meg egy cikk csillagát, hogy ide mentsd.</string>
+    <string name="empty_sources">Még nincsenek források.\nÉrintsd meg a + gombot hírcsatorna hozzáadásához.</string>
+
+    <string name="add_custom_feed">Egyéni hírcsatorna</string>
+    <string name="source_name">Név</string>
+    <string name="source_url">Hírcsatorna URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Megjegyzés: egy hírcsatorna hozzáadása vagy frissítése csatlakoztatja az eszközödet az adott forrás szerveréhez, amely megkaphatja az IP-címedet és a kérés részleteit. Nézd meg az egyes források saját adatvédelmi szabályzatát és adatvédelmi feltételeit, hogy megtudd, hogyan használják ezeket az adatokat.</string>
+    <string name="from_catalogue">Katalógusból</string>
+    <string name="custom">Egyéni</string>
+    <string name="items_count">%1$d cikk</string>
+    <string name="refreshing">Frissítés…</string>
+    <string name="refresh_done">%1$d új cikk · %2$d forrás rendben, %3$d sikertelen</string>
+    <string name="refresh_failed">A frissítés sikertelen</string>
+    <string name="source_refreshed">%1$d új cikk</string>
+    <string name="source_refresh_failed">Nem sikerült betölteni a hírcsatornát</string>
+    <string name="url_required">Adj meg egy hírcsatorna-URL-t</string>
+    <string name="source_exists">Ez a hírcsatorna már a forrásaid között van</string>
+    <string name="source_added">Forrás hozzáadva</string>
+    <string name="delete_source_q">Törlöd ezt a forrást és a cikkeit? A kedvencek megmaradnak.</string>
+    <string name="validating">Hírcsatorna ellenőrzése…</string>
+    <string name="invalid_feed">Nem sikerült beolvasni a hírcsatornát. Ellenőrizd az URL-t.</string>
+
+    <string name="favorited">Mentve a kedvencekhez</string>
+    <string name="unfavorited">Eltávolítva a kedvencekből</string>
+    <string name="no_content_online">Ez a cikk online olvasható. Koppints a megnyitáshoz.</string>
+    <string name="by_author">%1$s</string>
+
+    <string name="first_run_title">Hogyan szeretnél olvasni?</string>
+    <string name="first_run_message">Válaszd ki, hogyan kezelje a cikkeket. Ezt később a Beállításokban módosíthatod.</string>
+    <string name="mode_local_title">Helyi mentés</string>
+    <string name="mode_local_desc">Töltsd le és tárold a cikkek teljes szövegét ezen az eszközön. Olvasás offline.</string>
+    <string name="mode_online_title">Olvasás online</string>
+    <string name="mode_online_desc">Csak a címeket tartja meg; koppintáskor a teljes cikket a weben nyitja meg.</string>
+
+    <string name="setting_storage_header">Olvasás és tárolás</string>
+    <string name="setting_store_local">Cikkek helyi mentése</string>
+    <string name="setting_store_local_sub">Ki = cikkek olvasása csak online (a kedvencek mindig megmaradnak)</string>
+    <string name="setting_show_images">Képek megjelenítése a cikkekben</string>
+    <string name="setting_show_images_sub">Képek betöltése a hírcsatornákból (ki = csak szöveg)</string>
+    <string name="images_warning_title">Megjelenítsük a képeket?</string>
+    <string name="images_warning_message">A képek közvetlenül az egyes hírcsatornák szervereiről töltődnek be. Ezzel az IP-címed (és a hozzávetőleges helyed/hálózatod) láthatóvá válik a kép tárhelyszolgáltatója számára — ez felhasználható a követésedre. A már mentett kedvenceket ez nem érinti. Mégis betöltöd a képeket?</string>
+    <string name="images_enable">Képek engedélyezése</string>
+
+    <string name="setting_refresh_header">Háttérfrissítések</string>
+    <string name="setting_auto_refresh">Automatikus frissítés a háttérben</string>
+    <string name="setting_auto_refresh_sub">Rendszeresen letölti az új cikkeket, még ha az alkalmazás be is van zárva</string>
+    <string name="setting_push">Értesíts az új cikkekről</string>
+    <string name="setting_push_sub">Értesítés megjelenítése, ha a háttérfrissítés új cikkeket talál</string>
+    <string name="setting_interval">Frissítési gyakoriság</string>
+    <string name="setting_about">Az alkalmazásról</string>
+    <string name="notif_permission_needed">Engedélyezd az értesítéseket az új cikkekről szóló riasztásokhoz</string>
+
+    <string name="channel_new_items">Új cikkek</string>
+    <string name="channel_new_items_desc">Riasztások, ha a háttérfrissítés új cikkeket talál</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d új cikk</item>
+        <item quantity="other">%d új cikk</item>
+    </plurals>
+
+    <string name="title_privacy">Adatvédelem</string>
+    <string name="privacy">Adatvédelem</string>
+
+    <string name="about_app_tagline">Letisztult, fejlett RSS-olvasó.</string>
+    <string name="about_version">Verzió: %1$s</string>
+    <string name="about_developer_header">Fejlesztő</string>
+
+    <string name="no_connection">Nincs internetkapcsolat</string>
+    <string name="offline_cant_refresh">Offline vagy — csatlakozz az internethez a frissítéshez</string>
+    <string name="offline_article">Offline vagy. Ez a cikk online nyílik meg — csatlakozz az internethez, majd próbáld újra.</string>
+    <string name="offline_validate">Offline vagy — csatlakozz az internethez hírcsatorna hozzáadásához</string>
+    <string name="blocked_link">Ezt a hivatkozást a biztonságod érdekében letiltottuk</string>
+    <string name="web_load_error">Nem sikerült betölteni az oldalt</string>
+
+    <string name="pro_dialog_title">Váltás Próra</string>
+    <string name="pro_dialog_message">Az ingyenes verzió %1$d forrásra korlátozott.\n\nSzerezd be az „RSS Reader Advanced Pro” alkalmazást a Google Playen a korlátlan forrásokért.</string>
+    <string name="pro_get">Pro beszerzése</string>
+    <string name="pro_later">Most nem</string>
+
+    <string name="cd_favorite">Kedvenc</string>
+    <string name="cd_add">Forrás hozzáadása</string>
+</resources>

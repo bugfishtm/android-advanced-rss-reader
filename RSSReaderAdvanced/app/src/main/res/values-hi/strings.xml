@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">सभी लेख</string>
+    <string name="nav_sources">स्रोत</string>
+    <string name="nav_favorites">पसंदीदा</string>
+
+    <string name="title_add_source">स्रोत जोड़ें</string>
+    <string name="title_edit_source">स्रोत संपादित करें</string>
+    <string name="title_settings">सेटिंग</string>
+    <string name="title_about">परिचय</string>
+
+    <string name="refresh_all">सभी रीफ़्रेश करें</string>
+    <string name="add">जोड़ें</string>
+    <string name="save">सहेजें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="delete">हटाएँ</string>
+    <string name="edit">संपादित करें</string>
+    <string name="settings">सेटिंग</string>
+    <string name="about">परिचय</string>
+    <string name="open_in_browser">ब्राउज़र में खोलें</string>
+    <string name="share">साझा करें</string>
+    <string name="send_email">ईमेल से भेजें</string>
+    <string name="copy_link">लिंक कॉपी करें</string>
+    <string name="text_larger">बड़ा टेक्स्ट</string>
+    <string name="text_smaller">छोटा टेक्स्ट</string>
+    <string name="link_copied">लिंक कॉपी किया गया</string>
+    <string name="no_email_app">कोई ईमेल ऐप नहीं मिला</string>
+    <string name="search">खोजें</string>
+    <string name="search_hint">लेख खोजें…</string>
+    <string name="mark_all_read">सभी को पढ़ा हुआ चिह्नित करें</string>
+    <string name="marked_all_read">सभी को पढ़ा हुआ चिह्नित किया गया</string>
+    <string name="import_opml">फ़ीड आयात करें (OPML)</string>
+    <string name="export_opml">फ़ीड निर्यात करें (OPML)</string>
+    <string name="opml_exported">%1$d फ़ीड निर्यात किए गए</string>
+    <string name="opml_export_failed">निर्यात विफल</string>
+    <string name="opml_imported">%1$d नए फ़ीड आयात किए गए</string>
+    <string name="opml_import_none">उस फ़ाइल में कोई नया फ़ीड नहीं मिला</string>
+    <string name="opml_import_failed">वह OPML फ़ाइल पढ़ी नहीं जा सकी</string>
+    <string name="opml_import_limited">%1$d फ़ीड आयात किए गए. मुफ़्त संस्करण %2$d तक सीमित है — असीमित के लिए Pro लें.</string>
+
+    <string name="sort_by">क्रमबद्ध करें:</string>
+    <string name="filter_by">स्रोत:</string>
+    <string name="all_sources">सभी स्रोत</string>
+    <string name="empty_items">अभी तक कोई लेख नहीं.\nलेख लाने के लिए एक स्रोत जोड़ें और रीफ़्रेश करें.</string>
+    <string name="empty_favorites">अभी तक कोई पसंदीदा नहीं.\nयहाँ सहेजने के लिए किसी लेख के तारे पर टैप करें.</string>
+    <string name="empty_sources">अभी तक कोई स्रोत नहीं.\nफ़ीड जोड़ने के लिए + पर टैप करें.</string>
+
+    <string name="add_custom_feed">कस्टम फ़ीड</string>
+    <string name="source_name">नाम</string>
+    <string name="source_url">फ़ीड URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">ध्यान दें: फ़ीड जोड़ने या रीफ़्रेश करने पर आपका डिवाइस उस स्रोत के सर्वर से जुड़ता है, जो आपका IP पता और अनुरोध विवरण प्राप्त कर सकता है. यह डेटा कैसे उपयोग होता है, यह जानने के लिए प्रत्येक स्रोत की अपनी गोपनीयता नीति और डेटा-सुरक्षा शर्तें देखें.</string>
+    <string name="from_catalogue">कैटलॉग से</string>
+    <string name="custom">कस्टम</string>
+    <string name="items_count">%1$d लेख</string>
+    <string name="refreshing">रीफ़्रेश हो रहा है…</string>
+    <string name="refresh_done">%1$d नए लेख · %2$d स्रोत ठीक, %3$d विफल</string>
+    <string name="refresh_failed">रीफ़्रेश विफल</string>
+    <string name="source_refreshed">%1$d नए लेख</string>
+    <string name="source_refresh_failed">फ़ीड लोड नहीं हो सका</string>
+    <string name="url_required">कृपया फ़ीड URL दर्ज करें</string>
+    <string name="source_exists">वह फ़ीड पहले से ही आपके स्रोतों में है</string>
+    <string name="source_added">स्रोत जोड़ा गया</string>
+    <string name="delete_source_q">इस स्रोत और इसके लेख हटाएँ? पसंदीदा बने रहेंगे.</string>
+    <string name="validating">फ़ीड जाँची जा रही है…</string>
+    <string name="invalid_feed">वह फ़ीड पढ़ी नहीं जा सकी. URL जाँचें.</string>
+
+    <string name="favorited">पसंदीदा में सहेजा गया</string>
+    <string name="unfavorited">पसंदीदा से हटाया गया</string>
+    <string name="no_content_online">यह लेख ऑनलाइन पढ़ा जाता है. खोलने के लिए टैप करें.</string>
+    <string name="by_author">%1$s द्वारा</string>
+
+    <string name="first_run_title">आप कैसे पढ़ना चाहते हैं?</string>
+    <string name="first_run_message">चुनें कि लेख कैसे संभाले जाएँ. आप इसे बाद में सेटिंग में बदल सकते हैं.</string>
+    <string name="mode_local_title">स्थानीय रूप से सहेजें</string>
+    <string name="mode_local_desc">लेखों का पूरा टेक्स्ट इस डिवाइस पर डाउनलोड करके रखें. ऑफ़लाइन पढ़ें.</string>
+    <string name="mode_online_title">ऑनलाइन पढ़ें</string>
+    <string name="mode_online_desc">केवल शीर्षक रखें; टैप करने पर पूरा लेख वेब पर खोलें.</string>
+
+    <string name="setting_storage_header">पढ़ना और भंडारण</string>
+    <string name="setting_store_local">लेख स्थानीय रूप से सहेजें</string>
+    <string name="setting_store_local_sub">बंद = लेख केवल ऑनलाइन पढ़ें (पसंदीदा हमेशा रखे जाते हैं)</string>
+    <string name="setting_show_images">लेखों में छवियाँ दिखाएँ</string>
+    <string name="setting_show_images_sub">फ़ीड से छवियाँ लोड करें (बंद = केवल टेक्स्ट)</string>
+    <string name="images_warning_title">छवियाँ दिखाएँ?</string>
+    <string name="images_warning_message">छवियाँ सीधे प्रत्येक फ़ीड के सर्वर से लोड होती हैं. ऐसा करने से आपका IP पता (और अनुमानित स्थान/नेटवर्क) छवि होस्ट करने वाले को पता चल जाता है — इसका उपयोग आपको ट्रैक करने के लिए किया जा सकता है. पहले से सहेजे गए पसंदीदा पर असर नहीं पड़ता. फिर भी छवियाँ लोड करें?</string>
+    <string name="images_enable">छवियाँ सक्षम करें</string>
+
+    <string name="setting_refresh_header">बैकग्राउंड अपडेट</string>
+    <string name="setting_auto_refresh">बैकग्राउंड में स्वतः रीफ़्रेश करें</string>
+    <string name="setting_auto_refresh_sub">ऐप बंद होने पर भी समय-समय पर नए लेख लाएँ</string>
+    <string name="setting_push">नए लेखों के बारे में सूचित करें</string>
+    <string name="setting_push_sub">जब बैकग्राउंड रीफ़्रेश को नए लेख मिलें तो सूचना दिखाएँ</string>
+    <string name="setting_interval">रीफ़्रेश अंतराल</string>
+    <string name="setting_about">इस ऐप के बारे में</string>
+    <string name="notif_permission_needed">नए लेखों की सूचनाएँ पाने के लिए सूचनाओं की अनुमति दें</string>
+
+    <string name="channel_new_items">नए लेख</string>
+    <string name="channel_new_items_desc">जब बैकग्राउंड रीफ़्रेश को नए लेख मिलें तब सूचनाएँ</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d नया लेख</item>
+        <item quantity="other">%d नए लेख</item>
+    </plurals>
+
+    <string name="title_privacy">गोपनीयता</string>
+    <string name="privacy">गोपनीयता</string>
+
+    <string name="about_app_tagline">एक साफ़-सुथरा, उन्नत RSS रीडर.</string>
+    <string name="about_version">संस्करण %1$s</string>
+    <string name="about_developer_header">डेवलपर</string>
+
+    <string name="no_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="offline_cant_refresh">आप ऑफ़लाइन हैं — रीफ़्रेश करने के लिए इंटरनेट से कनेक्ट करें</string>
+    <string name="offline_article">आप ऑफ़लाइन हैं. यह लेख ऑनलाइन खुलता है — इंटरनेट से कनेक्ट करके फिर से प्रयास करें.</string>
+    <string name="offline_validate">आप ऑफ़लाइन हैं — फ़ीड जोड़ने के लिए इंटरनेट से कनेक्ट करें</string>
+    <string name="blocked_link">आपकी सुरक्षा के लिए यह लिंक ब्लॉक किया गया</string>
+    <string name="web_load_error">पेज लोड नहीं हो सका</string>
+
+    <string name="pro_dialog_title">Pro में अपग्रेड करें</string>
+    <string name="pro_dialog_message">मुफ़्त संस्करण %1$d स्रोतों तक सीमित है.\n\nअसीमित स्रोतों के लिए Google Play पर \"RSS Reader Advanced Pro\" प्राप्त करें.</string>
+    <string name="pro_get">Pro प्राप्त करें</string>
+    <string name="pro_later">अभी नहीं</string>
+
+    <string name="cd_favorite">पसंदीदा</string>
+    <string name="cd_add">स्रोत जोड़ें</string>
+</resources>

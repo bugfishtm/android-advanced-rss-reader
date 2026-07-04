@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Terbaru dulu</item>
+        <item>Terlama dulu</item>
+        <item>Judul (A–Z)</item>
+        <item>Sumber (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Setiap 15 menit</item>
+        <item>Setiap 30 menit</item>
+        <item>Setiap jam</item>
+        <item>Setiap 3 jam</item>
+        <item>Setiap 6 jam</item>
+        <item>Sekali sehari</item>
+    </string-array>
+</resources>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="nav_all">Tất cả bài viết</string>
+    <string name="nav_sources">Nguồn</string>
+    <string name="nav_favorites">Yêu thích</string>
+
+    <string name="title_add_source">Thêm nguồn</string>
+    <string name="title_edit_source">Chỉnh sửa nguồn</string>
+    <string name="title_settings">Cài đặt</string>
+    <string name="title_about">Giới thiệu</string>
+
+    <string name="refresh_all">Làm mới tất cả</string>
+    <string name="add">Thêm</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="settings">Cài đặt</string>
+    <string name="about">Giới thiệu</string>
+    <string name="open_in_browser">Mở trong trình duyệt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="send_email">Gửi qua email</string>
+    <string name="copy_link">Sao chép liên kết</string>
+    <string name="text_larger">Chữ lớn hơn</string>
+    <string name="text_smaller">Chữ nhỏ hơn</string>
+    <string name="link_copied">Đã sao chép liên kết</string>
+    <string name="no_email_app">Không tìm thấy ứng dụng email</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_hint">Tìm bài viết…</string>
+    <string name="mark_all_read">Đánh dấu tất cả là đã đọc</string>
+    <string name="marked_all_read">Đã đánh dấu tất cả là đã đọc</string>
+    <string name="import_opml">Nhập nguồn cấp (OPML)</string>
+    <string name="export_opml">Xuất nguồn cấp (OPML)</string>
+    <string name="opml_exported">Đã xuất %1$d nguồn cấp</string>
+    <string name="opml_export_failed">Xuất không thành công</string>
+    <string name="opml_imported">Đã nhập %1$d nguồn cấp mới</string>
+    <string name="opml_import_none">Không tìm thấy nguồn cấp mới nào trong tệp đó</string>
+    <string name="opml_import_failed">Không thể đọc tệp OPML đó</string>
+    <string name="opml_import_limited">Đã nhập %1$d nguồn cấp. Phiên bản miễn phí giới hạn %2$d — mua Pro để không giới hạn.</string>
+
+    <string name="sort_by">Sắp xếp:</string>
+    <string name="filter_by">Nguồn:</string>
+    <string name="all_sources">Tất cả nguồn</string>
+    <string name="empty_items">Chưa có bài viết nào.\nThêm một nguồn và làm mới để tải bài viết.</string>
+    <string name="empty_favorites">Chưa có mục yêu thích nào.\nNhấn vào ngôi sao trên một bài viết để lưu vào đây.</string>
+    <string name="empty_sources">Chưa có nguồn nào.\nNhấn + để thêm một nguồn cấp.</string>
+
+    <string name="add_custom_feed">Nguồn cấp tùy chỉnh</string>
+    <string name="source_name">Tên</string>
+    <string name="source_url">URL nguồn cấp (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Lưu ý: việc thêm hoặc làm mới một nguồn cấp sẽ kết nối thiết bị của bạn với máy chủ của nguồn đó, nơi có thể nhận địa chỉ IP và chi tiết yêu cầu của bạn. Vui lòng xem chính sách quyền riêng tư và điều khoản bảo vệ dữ liệu của từng nguồn để biết họ sử dụng dữ liệu này như thế nào.</string>
+    <string name="from_catalogue">Từ danh mục</string>
+    <string name="custom">Tùy chỉnh</string>
+    <string name="items_count">%1$d bài viết</string>
+    <string name="refreshing">Đang làm mới…</string>
+    <string name="refresh_done">%1$d bài viết mới · %2$d nguồn ok, %3$d thất bại</string>
+    <string name="refresh_failed">Làm mới không thành công</string>
+    <string name="source_refreshed">%1$d bài viết mới</string>
+    <string name="source_refresh_failed">Không thể tải nguồn cấp</string>
+    <string name="url_required">Vui lòng nhập URL nguồn cấp</string>
+    <string name="source_exists">Nguồn cấp đó đã có trong các nguồn của bạn</string>
+    <string name="source_added">Đã thêm nguồn</string>
+    <string name="delete_source_q">Xóa nguồn này và các bài viết của nó? Mục yêu thích được giữ lại.</string>
+    <string name="validating">Đang kiểm tra nguồn cấp…</string>
+    <string name="invalid_feed">Không thể đọc nguồn cấp đó. Hãy kiểm tra URL.</string>
+
+    <string name="favorited">Đã lưu vào mục yêu thích</string>
+    <string name="unfavorited">Đã xóa khỏi mục yêu thích</string>
+    <string name="no_content_online">Bài viết này được đọc trực tuyến. Nhấn để mở.</string>
+    <string name="by_author">bởi %1$s</string>
+
+    <string name="first_run_title">Bạn muốn đọc như thế nào?</string>
+    <string name="first_run_message">Chọn cách xử lý bài viết. Bạn có thể thay đổi sau trong Cài đặt.</string>
+    <string name="mode_local_title">Lưu cục bộ</string>
+    <string name="mode_local_desc">Tải và giữ toàn bộ nội dung bài viết trên thiết bị này. Đọc ngoại tuyến.</string>
+    <string name="mode_online_title">Đọc trực tuyến</string>
+    <string name="mode_online_desc">Chỉ giữ tiêu đề; mở toàn bộ bài viết trên web khi bạn nhấn.</string>
+
+    <string name="setting_storage_header">Đọc &amp; lưu trữ</string>
+    <string name="setting_store_local">Lưu bài viết cục bộ</string>
+    <string name="setting_store_local_sub">Tắt = chỉ đọc bài viết trực tuyến (mục yêu thích luôn được giữ lại)</string>
+    <string name="setting_show_images">Hiển thị hình ảnh trong bài viết</string>
+    <string name="setting_show_images_sub">Tải hình ảnh từ nguồn cấp (tắt = chỉ văn bản)</string>
+    <string name="images_warning_title">Hiển thị hình ảnh?</string>
+    <string name="images_warning_message">Hình ảnh được tải trực tiếp từ máy chủ của mỗi nguồn cấp. Làm vậy sẽ để lộ địa chỉ IP của bạn (và vị trí/mạng gần đúng) cho bên lưu trữ hình ảnh — điều này có thể bị dùng để theo dõi bạn. Các mục yêu thích đã lưu không bị ảnh hưởng. Vẫn tải hình ảnh chứ?</string>
+    <string name="images_enable">Bật hình ảnh</string>
+
+    <string name="setting_refresh_header">Cập nhật trong nền</string>
+    <string name="setting_auto_refresh">Tự động làm mới trong nền</string>
+    <string name="setting_auto_refresh_sub">Định kỳ lấy bài viết mới ngay cả khi ứng dụng đã đóng</string>
+    <string name="setting_push">Thông báo cho tôi về bài viết mới</string>
+    <string name="setting_push_sub">Hiển thị thông báo khi việc làm mới trong nền tìm thấy bài viết mới</string>
+    <string name="setting_interval">Khoảng thời gian làm mới</string>
+    <string name="setting_about">Về ứng dụng này</string>
+    <string name="notif_permission_needed">Cho phép thông báo để nhận cảnh báo về bài viết mới</string>
+
+    <string name="channel_new_items">Bài viết mới</string>
+    <string name="channel_new_items_desc">Cảnh báo khi việc làm mới trong nền tìm thấy bài viết mới</string>
+    <plurals name="new_items_notification">
+        <item quantity="other">%d bài viết mới</item>
+    </plurals>
+
+    <string name="title_privacy">Quyền riêng tư</string>
+    <string name="privacy">Quyền riêng tư</string>
+
+    <string name="about_app_tagline">Trình đọc RSS gọn gàng và nâng cao.</string>
+    <string name="about_version">Phiên bản %1$s</string>
+    <string name="about_developer_header">Nhà phát triển</string>
+
+    <string name="no_connection">Không có kết nối internet</string>
+    <string name="offline_cant_refresh">Bạn đang ngoại tuyến — hãy kết nối internet để làm mới</string>
+    <string name="offline_article">Bạn đang ngoại tuyến. Bài viết này mở trực tuyến — hãy kết nối internet rồi thử lại.</string>
+    <string name="offline_validate">Bạn đang ngoại tuyến — hãy kết nối internet để thêm nguồn cấp</string>
+    <string name="blocked_link">Liên kết này đã bị chặn vì sự an toàn của bạn</string>
+    <string name="web_load_error">Không thể tải trang</string>
+
+    <string name="pro_dialog_title">Nâng cấp lên Pro</string>
+    <string name="pro_dialog_message">Phiên bản miễn phí giới hạn %1$d nguồn.\n\nTải \"RSS Reader Advanced Pro\" trên Google Play để có nguồn không giới hạn.</string>
+    <string name="pro_get">Lấy Pro</string>
+    <string name="pro_later">Để sau</string>
+
+    <string name="cd_favorite">Yêu thích</string>
+    <string name="cd_add">Thêm nguồn</string>
+</resources>

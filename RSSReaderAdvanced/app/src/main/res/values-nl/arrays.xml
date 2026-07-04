@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Nieuwste eerst</item>
+        <item>Oudste eerst</item>
+        <item>Titel (A–Z)</item>
+        <item>Bron (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Elke 15 minuten</item>
+        <item>Elke 30 minuten</item>
+        <item>Elk uur</item>
+        <item>Elke 3 uur</item>
+        <item>Elke 6 uur</item>
+        <item>Eén keer per dag</item>
+    </string-array>
+</resources>

@@ -1,0 +1,137 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">전체 기사</string>
+    <string name="nav_sources">소스</string>
+    <string name="nav_favorites">즐겨찾기</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">소스 추가</string>
+    <string name="title_edit_source">소스 편집</string>
+    <string name="title_settings">설정</string>
+    <string name="title_about">정보</string>
+
+    <!-- Common -->
+    <string name="refresh_all">모두 새로고침</string>
+    <string name="add">추가</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="edit">편집</string>
+    <string name="settings">설정</string>
+    <string name="about">정보</string>
+    <string name="open_in_browser">브라우저에서 열기</string>
+    <string name="share">공유</string>
+    <string name="send_email">이메일로 보내기</string>
+    <string name="copy_link">링크 복사</string>
+    <string name="text_larger">글자 크게</string>
+    <string name="text_smaller">글자 작게</string>
+    <string name="link_copied">링크가 복사되었습니다</string>
+    <string name="no_email_app">이메일 앱을 찾을 수 없습니다</string>
+    <string name="search">검색</string>
+    <string name="search_hint">기사 검색…</string>
+    <string name="mark_all_read">모두 읽음으로 표시</string>
+    <string name="marked_all_read">모두 읽음으로 표시했습니다</string>
+    <string name="import_opml">피드 가져오기 (OPML)</string>
+    <string name="export_opml">피드 내보내기 (OPML)</string>
+    <string name="opml_exported">피드 %1$d개를 내보냈습니다</string>
+    <string name="opml_export_failed">내보내기 실패</string>
+    <string name="opml_imported">새 피드 %1$d개를 가져왔습니다</string>
+    <string name="opml_import_none">해당 파일에서 새 피드를 찾을 수 없습니다</string>
+    <string name="opml_import_failed">해당 OPML 파일을 읽을 수 없습니다</string>
+    <string name="opml_import_limited">피드 %1$d개를 가져왔습니다. 무료 버전은 %2$d개로 제한됩니다. 무제한을 원하면 Pro를 이용하세요.</string>
+
+    <!-- All items -->
+    <string name="sort_by">정렬:</string>
+    <string name="filter_by">소스:</string>
+    <string name="all_sources">모든 소스</string>
+    <string name="empty_items">아직 기사가 없습니다.\n소스를 추가하고 새로고침하여 기사를 불러오세요.</string>
+    <string name="empty_favorites">아직 즐겨찾기가 없습니다.\n기사의 별표를 누르면 여기에 저장됩니다.</string>
+    <string name="empty_sources">아직 소스가 없습니다.\n+를 눌러 피드를 추가하세요.</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">사용자 지정 피드</string>
+    <string name="source_name">이름</string>
+    <string name="source_url">피드 URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">참고: 피드를 추가하거나 새로고침하면 기기가 해당 소스의 서버에 연결되며, 상대방이 IP 주소와 요청 정보를 받을 수 있습니다. 각 소스가 이 데이터를 어떻게 사용하는지는 소스의 개인정보처리방침 및 데이터 보호 약관을 확인하세요.</string>
+    <string name="from_catalogue">카탈로그에서</string>
+    <string name="custom">사용자 지정</string>
+    <string name="items_count">기사 %1$d개</string>
+    <string name="refreshing">새로고침 중…</string>
+    <string name="refresh_done">새 기사 %1$d개 · 소스 %2$d개 성공, %3$d개 실패</string>
+    <string name="refresh_failed">새로고침 실패</string>
+    <string name="source_refreshed">새 기사 %1$d개</string>
+    <string name="source_refresh_failed">피드를 불러올 수 없습니다</string>
+    <string name="url_required">피드 URL을 입력하세요</string>
+    <string name="source_exists">이미 소스에 있는 피드입니다</string>
+    <string name="source_added">소스가 추가되었습니다</string>
+    <string name="delete_source_q">이 소스와 기사를 삭제할까요? 즐겨찾기는 유지됩니다.</string>
+    <string name="validating">피드 확인 중…</string>
+    <string name="invalid_feed">해당 피드를 읽을 수 없습니다. URL을 확인하세요.</string>
+
+    <!-- Detail -->
+    <string name="favorited">즐겨찾기에 저장했습니다</string>
+    <string name="unfavorited">즐겨찾기에서 삭제했습니다</string>
+    <string name="no_content_online">이 기사는 온라인에서 읽습니다. 눌러서 여세요.</string>
+    <string name="by_author">%1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">어떻게 읽으시겠어요?</string>
+    <string name="first_run_message">기사를 어떻게 처리할지 선택하세요. 나중에 설정에서 변경할 수 있습니다.</string>
+    <string name="mode_local_title">로컬에 저장</string>
+    <string name="mode_local_desc">기사 전문을 이 기기에 다운로드하여 보관합니다. 오프라인에서 읽을 수 있습니다.</string>
+    <string name="mode_online_title">온라인에서 읽기</string>
+    <string name="mode_online_desc">제목만 보관하고, 누르면 전체 기사를 웹에서 엽니다.</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">읽기 및 저장</string>
+    <string name="setting_store_local">기사를 로컬에 저장</string>
+    <string name="setting_store_local_sub">끔 = 기사를 온라인에서만 읽기 (즐겨찾기는 항상 유지)</string>
+    <string name="setting_show_images">기사에 이미지 표시</string>
+    <string name="setting_show_images_sub">피드의 이미지를 불러오기 (끔 = 텍스트만)</string>
+    <string name="images_warning_title">이미지를 표시할까요?</string>
+    <string name="images_warning_message">이미지는 각 피드의 서버에서 직접 불러옵니다. 이 과정에서 이미지를 호스팅하는 쪽에 사용자의 IP 주소(및 대략적인 위치/네트워크)가 노출되어 추적에 사용될 수 있습니다. 이미 저장한 즐겨찾기에는 영향이 없습니다. 그래도 이미지를 불러올까요?</string>
+    <string name="images_enable">이미지 사용</string>
+
+    <string name="setting_refresh_header">백그라운드 업데이트</string>
+    <string name="setting_auto_refresh">백그라운드에서 자동 새로고침</string>
+    <string name="setting_auto_refresh_sub">앱이 닫혀 있어도 주기적으로 새 기사를 가져옵니다</string>
+    <string name="setting_push">새 기사 알림 받기</string>
+    <string name="setting_push_sub">백그라운드 새로고침에서 새 기사를 찾으면 알림을 표시합니다</string>
+    <string name="setting_interval">새로고침 간격</string>
+    <string name="setting_about">이 앱 정보</string>
+    <string name="notif_permission_needed">새 기사 알림을 받으려면 알림을 허용하세요</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">새 기사</string>
+    <string name="channel_new_items_desc">백그라운드 새로고침에서 새 기사를 찾을 때 알림</string>
+    <plurals name="new_items_notification">
+        <item quantity="other">새 기사 %d개</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">개인정보 보호</string>
+    <string name="privacy">개인정보 보호</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">깔끔하고 강력한 RSS 리더.</string>
+    <string name="about_version">버전 %1$s</string>
+    <string name="about_developer_header">개발자</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">인터넷 연결 없음</string>
+    <string name="offline_cant_refresh">오프라인 상태입니다. 새로고침하려면 인터넷에 연결하세요</string>
+    <string name="offline_article">오프라인 상태입니다. 이 기사는 온라인에서 열립니다. 인터넷에 연결한 후 다시 시도하세요.</string>
+    <string name="offline_validate">오프라인 상태입니다. 피드를 추가하려면 인터넷에 연결하세요</string>
+    <string name="blocked_link">보안을 위해 이 링크가 차단되었습니다</string>
+    <string name="web_load_error">페이지를 불러올 수 없습니다</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">Pro로 업그레이드</string>
+    <string name="pro_dialog_message">무료 버전은 소스 %1$d개로 제한됩니다.\n\nGoogle Play에서 \"RSS Reader Advanced Pro\"를 받으면 소스를 무제한으로 추가할 수 있습니다.</string>
+    <string name="pro_get">Pro 받기</string>
+    <string name="pro_later">나중에</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">즐겨찾기</string>
+    <string name="cd_add">소스 추가</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>الأحدث أولًا</item>
+        <item>الأقدم أولًا</item>
+        <item>العنوان (أ–ي)</item>
+        <item>المصدر (أ–ي)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>كل 15 دقيقة</item>
+        <item>كل 30 دقيقة</item>
+        <item>كل ساعة</item>
+        <item>كل 3 ساعات</item>
+        <item>كل 6 ساعات</item>
+        <item>مرة واحدة يوميًا</item>
+    </string-array>
+</resources>

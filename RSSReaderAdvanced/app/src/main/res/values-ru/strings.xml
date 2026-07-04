@@ -1,0 +1,140 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">Все статьи</string>
+    <string name="nav_sources">Источники</string>
+    <string name="nav_favorites">Избранное</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">Добавить источник</string>
+    <string name="title_edit_source">Изменить источник</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_about">О приложении</string>
+
+    <!-- Common -->
+    <string name="refresh_all">Обновить все</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О приложении</string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="share">Поделиться</string>
+    <string name="send_email">Отправить по эл. почте</string>
+    <string name="copy_link">Копировать ссылку</string>
+    <string name="text_larger">Крупнее текст</string>
+    <string name="text_smaller">Мельче текст</string>
+    <string name="link_copied">Ссылка скопирована</string>
+    <string name="no_email_app">Почтовое приложение не найдено</string>
+    <string name="search">Поиск</string>
+    <string name="search_hint">Поиск статей…</string>
+    <string name="mark_all_read">Отметить все как прочитанные</string>
+    <string name="marked_all_read">Все отмечены как прочитанные</string>
+    <string name="import_opml">Импорт лент (OPML)</string>
+    <string name="export_opml">Экспорт лент (OPML)</string>
+    <string name="opml_exported">Экспортировано лент: %1$d</string>
+    <string name="opml_export_failed">Не удалось экспортировать</string>
+    <string name="opml_imported">Импортировано новых лент: %1$d</string>
+    <string name="opml_import_none">В этом файле не найдено новых лент</string>
+    <string name="opml_import_failed">Не удалось прочитать этот файл OPML</string>
+    <string name="opml_import_limited">Импортировано лент: %1$d. Бесплатная версия ограничена %2$d — оформите Pro для неограниченного числа.</string>
+
+    <!-- All items -->
+    <string name="sort_by">Сортировка:</string>
+    <string name="filter_by">Источник:</string>
+    <string name="all_sources">Все источники</string>
+    <string name="empty_items">Пока нет статей.\nДобавьте источник и обновите, чтобы загрузить статьи.</string>
+    <string name="empty_favorites">Пока нет избранного.\nНажмите на звёздочку у статьи, чтобы сохранить её здесь.</string>
+    <string name="empty_sources">Пока нет источников.\nНажмите +, чтобы добавить ленту.</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">Своя лента</string>
+    <string name="source_name">Название</string>
+    <string name="source_url">URL ленты (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Примечание: добавление или обновление ленты подключает ваше устройство к серверу этого источника, который может получить ваш IP-адрес и данные запроса. Ознакомьтесь с политикой конфиденциальности и условиями защиты данных каждого источника, чтобы узнать, как они используют эти данные.</string>
+    <string name="from_catalogue">Из каталога</string>
+    <string name="custom">Своя</string>
+    <string name="items_count">Статей: %1$d</string>
+    <string name="refreshing">Обновление…</string>
+    <string name="refresh_done">Новых статей: %1$d · источников успешно: %2$d, с ошибкой: %3$d</string>
+    <string name="refresh_failed">Не удалось обновить</string>
+    <string name="source_refreshed">Новых статей: %1$d</string>
+    <string name="source_refresh_failed">Не удалось загрузить ленту</string>
+    <string name="url_required">Введите URL ленты</string>
+    <string name="source_exists">Эта лента уже есть в ваших источниках</string>
+    <string name="source_added">Источник добавлен</string>
+    <string name="delete_source_q">Удалить этот источник и его статьи? Избранное сохранится.</string>
+    <string name="validating">Проверка ленты…</string>
+    <string name="invalid_feed">Не удалось прочитать эту ленту. Проверьте URL.</string>
+
+    <!-- Detail -->
+    <string name="favorited">Добавлено в избранное</string>
+    <string name="unfavorited">Удалено из избранного</string>
+    <string name="no_content_online">Эта статья читается онлайн. Нажмите, чтобы открыть.</string>
+    <string name="by_author">автор: %1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">Как вы хотите читать?</string>
+    <string name="first_run_message">Выберите, как обрабатывать статьи. Это можно изменить позже в настройках.</string>
+    <string name="mode_local_title">Сохранять локально</string>
+    <string name="mode_local_desc">Загружать и хранить полный текст статей на этом устройстве. Чтение офлайн.</string>
+    <string name="mode_online_title">Читать онлайн</string>
+    <string name="mode_online_desc">Хранить только заголовки; открывать полную статью в интернете по нажатию.</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">Чтение и хранение</string>
+    <string name="setting_store_local">Сохранять статьи локально</string>
+    <string name="setting_store_local_sub">Выкл. = читать статьи только онлайн (избранное всегда сохраняется)</string>
+    <string name="setting_show_images">Показывать изображения в статьях</string>
+    <string name="setting_show_images_sub">Загружать изображения из лент (выкл. = только текст)</string>
+    <string name="images_warning_title">Показывать изображения?</string>
+    <string name="images_warning_message">Изображения загружаются напрямую с серверов каждой ленты. При этом ваш IP-адрес (и примерное местоположение/сеть) становятся известны тому, кто размещает изображение, — это можно использовать для отслеживания. Уже сохранённое избранное не затрагивается. Всё равно загружать изображения?</string>
+    <string name="images_enable">Включить изображения</string>
+
+    <string name="setting_refresh_header">Фоновые обновления</string>
+    <string name="setting_auto_refresh">Автообновление в фоне</string>
+    <string name="setting_auto_refresh_sub">Периодически загружать новые статьи, даже когда приложение закрыто</string>
+    <string name="setting_push">Уведомлять о новых статьях</string>
+    <string name="setting_push_sub">Показывать уведомление, когда фоновое обновление находит новые статьи</string>
+    <string name="setting_interval">Интервал обновления</string>
+    <string name="setting_about">Об этом приложении</string>
+    <string name="notif_permission_needed">Разрешите уведомления, чтобы получать оповещения о новых статьях</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">Новые статьи</string>
+    <string name="channel_new_items_desc">Оповещения, когда фоновое обновление находит новые статьи</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d новая статья</item>
+        <item quantity="few">%d новые статьи</item>
+        <item quantity="many">%d новых статей</item>
+        <item quantity="other">%d новой статьи</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">Конфиденциальность</string>
+    <string name="privacy">Конфиденциальность</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">Простое и продвинутое приложение для чтения RSS.</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_developer_header">Разработчик</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">Нет подключения к интернету</string>
+    <string name="offline_cant_refresh">Вы офлайн — подключитесь к интернету, чтобы обновить</string>
+    <string name="offline_article">Вы офлайн. Эта статья открывается онлайн — подключитесь к интернету и повторите попытку.</string>
+    <string name="offline_validate">Вы офлайн — подключитесь к интернету, чтобы добавить ленту</string>
+    <string name="blocked_link">Эта ссылка заблокирована для вашей безопасности</string>
+    <string name="web_load_error">Не удалось загрузить страницу</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">Перейти на Pro</string>
+    <string name="pro_dialog_message">Бесплатная версия ограничена %1$d источниками.\n\nУстановите «RSS Reader Advanced Pro» в Google Play для неограниченного числа источников.</string>
+    <string name="pro_get">Получить Pro</string>
+    <string name="pro_later">Не сейчас</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">В избранное</string>
+    <string name="cd_add">Добавить источник</string>
+</resources>

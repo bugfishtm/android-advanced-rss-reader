@@ -1,0 +1,128 @@
+<resources>
+    <string name="nav_all">كل المقالات</string>
+    <string name="nav_sources">المصادر</string>
+    <string name="nav_favorites">المفضلة</string>
+
+    <string name="title_add_source">إضافة مصدر</string>
+    <string name="title_edit_source">تعديل المصدر</string>
+    <string name="title_settings">الإعدادات</string>
+    <string name="title_about">حول</string>
+
+    <string name="refresh_all">تحديث الكل</string>
+    <string name="add">إضافة</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="settings">الإعدادات</string>
+    <string name="about">حول</string>
+    <string name="open_in_browser">فتح في المتصفح</string>
+    <string name="share">مشاركة</string>
+    <string name="send_email">إرسال عبر البريد الإلكتروني</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="text_larger">نص أكبر</string>
+    <string name="text_smaller">نص أصغر</string>
+    <string name="link_copied">تم نسخ الرابط</string>
+    <string name="no_email_app">لم يتم العثور على تطبيق بريد إلكتروني</string>
+    <string name="search">بحث</string>
+    <string name="search_hint">البحث في المقالات…</string>
+    <string name="mark_all_read">تعليم الكل كمقروء</string>
+    <string name="marked_all_read">تم تعليم الكل كمقروء</string>
+    <string name="import_opml">استيراد الخلاصات (OPML)</string>
+    <string name="export_opml">تصدير الخلاصات (OPML)</string>
+    <string name="opml_exported">تم تصدير %1$d خلاصة</string>
+    <string name="opml_export_failed">فشل التصدير</string>
+    <string name="opml_imported">تم استيراد %1$d خلاصة جديدة</string>
+    <string name="opml_import_none">لم يتم العثور على خلاصات جديدة في ذلك الملف</string>
+    <string name="opml_import_failed">تعذّر قراءة ملف OPML هذا</string>
+    <string name="opml_import_limited">تم استيراد %1$d خلاصة. النسخة المجانية محدودة بـ %2$d — احصل على Pro لعدد غير محدود.</string>
+
+    <string name="sort_by">الترتيب:</string>
+    <string name="filter_by">المصدر:</string>
+    <string name="all_sources">كل المصادر</string>
+    <string name="empty_items">لا توجد مقالات بعد.\nأضف مصدرًا وحدّث لجلب المقالات.</string>
+    <string name="empty_favorites">لا توجد مفضلة بعد.\nانقر على النجمة في أي مقال لحفظه هنا.</string>
+    <string name="empty_sources">لا توجد مصادر بعد.\nانقر + لإضافة خلاصة.</string>
+
+    <string name="add_custom_feed">خلاصة مخصصة</string>
+    <string name="source_name">الاسم</string>
+    <string name="source_url">رابط الخلاصة (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">ملاحظة: إضافة خلاصة أو تحديثها يربط جهازك بخادم ذلك المصدر، الذي قد يتلقّى عنوان IP الخاص بك وتفاصيل الطلب. يرجى مراجعة سياسة الخصوصية وشروط حماية البيانات الخاصة بكل مصدر لمعرفة كيفية استخدامهم لهذه البيانات.</string>
+    <string name="from_catalogue">من الكتالوج</string>
+    <string name="custom">مخصص</string>
+    <string name="items_count">%1$d مقالات</string>
+    <string name="refreshing">جارٍ التحديث…</string>
+    <string name="refresh_done">%1$d مقالات جديدة · %2$d مصادر ناجحة، %3$d فاشلة</string>
+    <string name="refresh_failed">فشل التحديث</string>
+    <string name="source_refreshed">%1$d مقالات جديدة</string>
+    <string name="source_refresh_failed">تعذّر تحميل الخلاصة</string>
+    <string name="url_required">يرجى إدخال رابط الخلاصة</string>
+    <string name="source_exists">هذه الخلاصة موجودة بالفعل في مصادرك</string>
+    <string name="source_added">تمت إضافة المصدر</string>
+    <string name="delete_source_q">حذف هذا المصدر ومقالاته؟ يتم الاحتفاظ بالمفضلة.</string>
+    <string name="validating">جارٍ التحقق من الخلاصة…</string>
+    <string name="invalid_feed">تعذّر قراءة هذه الخلاصة. تحقق من الرابط.</string>
+
+    <string name="favorited">تم الحفظ في المفضلة</string>
+    <string name="unfavorited">تمت الإزالة من المفضلة</string>
+    <string name="no_content_online">تتم قراءة هذا المقال عبر الإنترنت. انقر لفتحه.</string>
+    <string name="by_author">بواسطة %1$s</string>
+
+    <string name="first_run_title">كيف تريد القراءة؟</string>
+    <string name="first_run_message">اختر كيفية التعامل مع المقالات. يمكنك تغيير ذلك لاحقًا في الإعدادات.</string>
+    <string name="mode_local_title">الحفظ محليًا</string>
+    <string name="mode_local_desc">تنزيل نص المقال كاملًا والاحتفاظ به على هذا الجهاز. اقرأ دون اتصال.</string>
+    <string name="mode_online_title">القراءة عبر الإنترنت</string>
+    <string name="mode_online_desc">الاحتفاظ بالعناوين فقط؛ فتح المقال كاملًا على الويب عند النقر.</string>
+
+    <string name="setting_storage_header">القراءة والتخزين</string>
+    <string name="setting_store_local">حفظ المقالات محليًا</string>
+    <string name="setting_store_local_sub">إيقاف = قراءة المقالات عبر الإنترنت فقط (يتم دائمًا الاحتفاظ بالمفضلة)</string>
+    <string name="setting_show_images">عرض الصور في المقالات</string>
+    <string name="setting_show_images_sub">تحميل الصور من الخلاصات (إيقاف = نص فقط)</string>
+    <string name="images_warning_title">عرض الصور؟</string>
+    <string name="images_warning_message">يتم تحميل الصور مباشرةً من خوادم كل خلاصة. يؤدي ذلك إلى كشف عنوان IP الخاص بك (وموقعك/شبكتك التقريبيين) لمن يستضيف الصورة — ويمكن استخدام ذلك لتتبعك. لا تتأثر المفضلة المحفوظة مسبقًا. هل تريد تحميل الصور على أي حال؟</string>
+    <string name="images_enable">تفعيل الصور</string>
+
+    <string name="setting_refresh_header">تحديثات الخلفية</string>
+    <string name="setting_auto_refresh">التحديث التلقائي في الخلفية</string>
+    <string name="setting_auto_refresh_sub">جلب مقالات جديدة دوريًا حتى عند إغلاق التطبيق</string>
+    <string name="setting_push">إشعاري بالمقالات الجديدة</string>
+    <string name="setting_push_sub">عرض إشعار عندما يعثر تحديث الخلفية على مقالات جديدة</string>
+    <string name="setting_interval">فترة التحديث</string>
+    <string name="setting_about">حول هذا التطبيق</string>
+    <string name="notif_permission_needed">اسمح بالإشعارات لتلقّي تنبيهات المقالات الجديدة</string>
+
+    <string name="channel_new_items">مقالات جديدة</string>
+    <string name="channel_new_items_desc">تنبيهات عندما يعثر تحديث الخلفية على مقالات جديدة</string>
+    <plurals name="new_items_notification">
+        <item quantity="zero">%d مقال جديد</item>
+        <item quantity="one">مقال جديد واحد</item>
+        <item quantity="two">مقالان جديدان</item>
+        <item quantity="few">%d مقالات جديدة</item>
+        <item quantity="many">%d مقالًا جديدًا</item>
+        <item quantity="other">%d مقال جديد</item>
+    </plurals>
+
+    <string name="title_privacy">الخصوصية</string>
+    <string name="privacy">الخصوصية</string>
+
+    <string name="about_app_tagline">قارئ RSS أنيق ومتقدم.</string>
+    <string name="about_version">الإصدار %1$s</string>
+    <string name="about_developer_header">المطوّر</string>
+
+    <string name="no_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="offline_cant_refresh">أنت غير متصل — اتصل بالإنترنت للتحديث</string>
+    <string name="offline_article">أنت غير متصل. يُفتح هذا المقال عبر الإنترنت — اتصل بالإنترنت ثم حاول مرة أخرى.</string>
+    <string name="offline_validate">أنت غير متصل — اتصل بالإنترنت لإضافة خلاصة</string>
+    <string name="blocked_link">تم حظر هذا الرابط من أجل سلامتك</string>
+    <string name="web_load_error">تعذّر تحميل الصفحة</string>
+
+    <string name="pro_dialog_title">الترقية إلى Pro</string>
+    <string name="pro_dialog_message">النسخة المجانية محدودة بـ %1$d مصادر.\n\nاحصل على «RSS Reader Advanced Pro» على Google Play لمصادر غير محدودة.</string>
+    <string name="pro_get">الحصول على Pro</string>
+    <string name="pro_later">ليس الآن</string>
+
+    <string name="cd_favorite">المفضلة</string>
+    <string name="cd_add">إضافة مصدر</string>
+</resources>

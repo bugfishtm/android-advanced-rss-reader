@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Uusimmat ensin</item>
+        <item>Vanhimmat ensin</item>
+        <item>Otsikko (A–Ö)</item>
+        <item>Lähde (A–Ö)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>15 minuutin välein</item>
+        <item>30 minuutin välein</item>
+        <item>Tunnin välein</item>
+        <item>3 tunnin välein</item>
+        <item>6 tunnin välein</item>
+        <item>Kerran päivässä</item>
+    </string-array>
+</resources>

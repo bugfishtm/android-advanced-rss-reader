@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Kaikki artikkelit</string>
+    <string name="nav_sources">Lähteet</string>
+    <string name="nav_favorites">Suosikit</string>
+
+    <string name="title_add_source">Lisää lähde</string>
+    <string name="title_edit_source">Muokkaa lähdettä</string>
+    <string name="title_settings">Asetukset</string>
+    <string name="title_about">Tietoja</string>
+
+    <string name="refresh_all">Päivitä kaikki</string>
+    <string name="add">Lisää</string>
+    <string name="save">Tallenna</string>
+    <string name="cancel">Peruuta</string>
+    <string name="delete">Poista</string>
+    <string name="edit">Muokkaa</string>
+    <string name="settings">Asetukset</string>
+    <string name="about">Tietoja</string>
+    <string name="open_in_browser">Avaa selaimessa</string>
+    <string name="share">Jaa</string>
+    <string name="send_email">Lähetä sähköpostilla</string>
+    <string name="copy_link">Kopioi linkki</string>
+    <string name="text_larger">Suurempi teksti</string>
+    <string name="text_smaller">Pienempi teksti</string>
+    <string name="link_copied">Linkki kopioitu</string>
+    <string name="no_email_app">Sähköpostisovellusta ei löytynyt</string>
+    <string name="search">Hae</string>
+    <string name="search_hint">Hae artikkeleita…</string>
+    <string name="mark_all_read">Merkitse kaikki luetuiksi</string>
+    <string name="marked_all_read">Kaikki merkitty luetuiksi</string>
+    <string name="import_opml">Tuo syötteet (OPML)</string>
+    <string name="export_opml">Vie syötteet (OPML)</string>
+    <string name="opml_exported">%1$d syötettä viety</string>
+    <string name="opml_export_failed">Vienti epäonnistui</string>
+    <string name="opml_imported">%1$d uutta syötettä tuotu</string>
+    <string name="opml_import_none">Tiedostosta ei löytynyt uusia syötteitä</string>
+    <string name="opml_import_failed">OPML-tiedostoa ei voitu lukea</string>
+    <string name="opml_import_limited">%1$d syötettä tuotu. Ilmaisversio on rajoitettu %2$d syötteeseen — hanki Pro rajattomaan käyttöön.</string>
+
+    <string name="sort_by">Lajittele:</string>
+    <string name="filter_by">Lähde:</string>
+    <string name="all_sources">Kaikki lähteet</string>
+    <string name="empty_items">Ei vielä artikkeleita.\nLisää lähde ja päivitä ladataksesi artikkeleita.</string>
+    <string name="empty_favorites">Ei vielä suosikkeja.\nNapauta artikkelin tähteä tallentaaksesi sen tänne.</string>
+    <string name="empty_sources">Ei vielä lähteitä.\nNapauta +-painiketta lisätäksesi syötteen.</string>
+
+    <string name="add_custom_feed">Mukautettu syöte</string>
+    <string name="source_name">Nimi</string>
+    <string name="source_url">Syötteen URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Huomautus: syötteen lisääminen tai päivittäminen yhdistää laitteesi kyseisen lähteen palvelimeen, joka voi saada IP-osoitteesi ja pyynnön tiedot. Tarkista kunkin lähteen oma tietosuojakäytäntö ja tietosuojaehdot nähdäksesi, miten ne käyttävät näitä tietoja.</string>
+    <string name="from_catalogue">Luettelosta</string>
+    <string name="custom">Mukautettu</string>
+    <string name="items_count">%1$d artikkelia</string>
+    <string name="refreshing">Päivitetään…</string>
+    <string name="refresh_done">%1$d uutta artikkelia · %2$d lähdettä ok, %3$d epäonnistui</string>
+    <string name="refresh_failed">Päivitys epäonnistui</string>
+    <string name="source_refreshed">%1$d uutta artikkelia</string>
+    <string name="source_refresh_failed">Syötettä ei voitu ladata</string>
+    <string name="url_required">Anna syötteen URL-osoite</string>
+    <string name="source_exists">Tämä syöte on jo lähteissäsi</string>
+    <string name="source_added">Lähde lisätty</string>
+    <string name="delete_source_q">Poistetaanko tämä lähde ja sen artikkelit? Suosikit säilytetään.</string>
+    <string name="validating">Tarkistetaan syötettä…</string>
+    <string name="invalid_feed">Syötettä ei voitu lukea. Tarkista URL-osoite.</string>
+
+    <string name="favorited">Tallennettu suosikkeihin</string>
+    <string name="unfavorited">Poistettu suosikeista</string>
+    <string name="no_content_online">Tämä artikkeli luetaan verkossa. Napauta avataksesi.</string>
+    <string name="by_author">kirjoittaja %1$s</string>
+
+    <string name="first_run_title">Miten haluat lukea?</string>
+    <string name="first_run_message">Valitse, miten artikkeleita käsitellään. Voit muuttaa tätä myöhemmin Asetuksissa.</string>
+    <string name="mode_local_title">Tallenna paikallisesti</string>
+    <string name="mode_local_desc">Lataa ja säilytä artikkelien koko teksti tällä laitteella. Lue offline-tilassa.</string>
+    <string name="mode_online_title">Lue verkossa</string>
+    <string name="mode_online_desc">Säilytä vain otsikot; avaa koko artikkeli verkossa, kun napautat.</string>
+
+    <string name="setting_storage_header">Lukeminen ja tallennus</string>
+    <string name="setting_store_local">Tallenna artikkelit paikallisesti</string>
+    <string name="setting_store_local_sub">Pois = lue artikkelit vain verkossa (suosikit säilytetään aina)</string>
+    <string name="setting_show_images">Näytä kuvat artikkeleissa</string>
+    <string name="setting_show_images_sub">Lataa kuvat syötteistä (pois = vain teksti)</string>
+    <string name="images_warning_title">Näytetäänkö kuvat?</string>
+    <string name="images_warning_message">Kuvat ladataan suoraan kunkin syötteen palvelimilta. Tällöin IP-osoitteesi (ja likimääräinen sijaintisi/verkkosi) paljastuu kuvan isännöijälle — sitä voidaan käyttää sinun seuraamiseesi. Jo tallennetut suosikit eivät muutu. Ladataanko kuvat silti?</string>
+    <string name="images_enable">Ota kuvat käyttöön</string>
+
+    <string name="setting_refresh_header">Taustapäivitykset</string>
+    <string name="setting_auto_refresh">Päivitä automaattisesti taustalla</string>
+    <string name="setting_auto_refresh_sub">Hae uusia artikkeleita säännöllisesti, vaikka sovellus on suljettu</string>
+    <string name="setting_push">Ilmoita uusista artikkeleista</string>
+    <string name="setting_push_sub">Näytä ilmoitus, kun taustapäivitys löytää uusia artikkeleita</string>
+    <string name="setting_interval">Päivitysväli</string>
+    <string name="setting_about">Tietoja tästä sovelluksesta</string>
+    <string name="notif_permission_needed">Salli ilmoitukset saadaksesi uusia artikkeleita koskevia hälytyksiä</string>
+
+    <string name="channel_new_items">Uudet artikkelit</string>
+    <string name="channel_new_items_desc">Hälytykset, kun taustapäivitys löytää uusia artikkeleita</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d uusi artikkeli</item>
+        <item quantity="other">%d uutta artikkelia</item>
+    </plurals>
+
+    <string name="title_privacy">Tietosuoja</string>
+    <string name="privacy">Tietosuoja</string>
+
+    <string name="about_app_tagline">Selkeä ja edistynyt RSS-lukija.</string>
+    <string name="about_version">Versio %1$s</string>
+    <string name="about_developer_header">Kehittäjä</string>
+
+    <string name="no_connection">Ei internetyhteyttä</string>
+    <string name="offline_cant_refresh">Olet offline-tilassa — muodosta internetyhteys päivittääksesi</string>
+    <string name="offline_article">Olet offline-tilassa. Tämä artikkeli avautuu verkossa — muodosta internetyhteys ja yritä uudelleen.</string>
+    <string name="offline_validate">Olet offline-tilassa — muodosta internetyhteys lisätäksesi syötteen</string>
+    <string name="blocked_link">Tämä linkki estettiin turvallisuutesi vuoksi</string>
+    <string name="web_load_error">Sivua ei voitu ladata</string>
+
+    <string name="pro_dialog_title">Päivitä Pro-versioon</string>
+    <string name="pro_dialog_message">Ilmaisversio on rajoitettu %1$d lähteeseen.\n\nHanki \"RSS Reader Advanced Pro\" Google Playstä rajattomiin lähteisiin.</string>
+    <string name="pro_get">Hanki Pro</string>
+    <string name="pro_later">Ei nyt</string>
+
+    <string name="cd_favorite">Suosikki</string>
+    <string name="cd_add">Lisää lähde</string>
+</resources>

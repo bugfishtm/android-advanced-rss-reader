@@ -1,0 +1,126 @@
+<resources>
+    <string name="nav_all">Všechny články</string>
+    <string name="nav_sources">Zdroje</string>
+    <string name="nav_favorites">Oblíbené</string>
+
+    <string name="title_add_source">Přidat zdroj</string>
+    <string name="title_edit_source">Upravit zdroj</string>
+    <string name="title_settings">Nastavení</string>
+    <string name="title_about">O aplikaci</string>
+
+    <string name="refresh_all">Obnovit vše</string>
+    <string name="add">Přidat</string>
+    <string name="save">Uložit</string>
+    <string name="cancel">Zrušit</string>
+    <string name="delete">Smazat</string>
+    <string name="edit">Upravit</string>
+    <string name="settings">Nastavení</string>
+    <string name="about">O aplikaci</string>
+    <string name="open_in_browser">Otevřít v prohlížeči</string>
+    <string name="share">Sdílet</string>
+    <string name="send_email">Odeslat e-mailem</string>
+    <string name="copy_link">Kopírovat odkaz</string>
+    <string name="text_larger">Větší text</string>
+    <string name="text_smaller">Menší text</string>
+    <string name="link_copied">Odkaz zkopírován</string>
+    <string name="no_email_app">Nenalezena žádná e-mailová aplikace</string>
+    <string name="search">Hledat</string>
+    <string name="search_hint">Hledat články…</string>
+    <string name="mark_all_read">Označit vše jako přečtené</string>
+    <string name="marked_all_read">Vše označeno jako přečtené</string>
+    <string name="import_opml">Importovat kanály (OPML)</string>
+    <string name="export_opml">Exportovat kanály (OPML)</string>
+    <string name="opml_exported">Exportováno kanálů: %1$d</string>
+    <string name="opml_export_failed">Export se nezdařil</string>
+    <string name="opml_imported">Importováno nových kanálů: %1$d</string>
+    <string name="opml_import_none">V tomto souboru nebyly nalezeny žádné nové kanály</string>
+    <string name="opml_import_failed">Tento soubor OPML nelze přečíst</string>
+    <string name="opml_import_limited">Importováno kanálů: %1$d. Bezplatná verze je omezena na %2$d — pořiďte si Pro pro neomezený počet.</string>
+
+    <string name="sort_by">Řadit:</string>
+    <string name="filter_by">Zdroj:</string>
+    <string name="all_sources">Všechny zdroje</string>
+    <string name="empty_items">Zatím žádné články.\nPřidejte zdroj a obnovte pro načtení článků.</string>
+    <string name="empty_favorites">Zatím žádné oblíbené.\nKlepnutím na hvězdičku u článku jej sem uložíte.</string>
+    <string name="empty_sources">Zatím žádné zdroje.\nKlepnutím na + přidáte kanál.</string>
+
+    <string name="add_custom_feed">Vlastní kanál</string>
+    <string name="source_name">Název</string>
+    <string name="source_url">URL kanálu (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Poznámka: přidání nebo obnovení kanálu připojí vaše zařízení k serveru daného zdroje, který může získat vaši IP adresu a podrobnosti požadavku. Přečtěte si zásady ochrany osobních údajů a podmínky ochrany dat každého zdroje, abyste zjistili, jak tato data používají.</string>
+    <string name="from_catalogue">Z katalogu</string>
+    <string name="custom">Vlastní</string>
+    <string name="items_count">%1$d článků</string>
+    <string name="refreshing">Obnovování…</string>
+    <string name="refresh_done">Nových článků: %1$d · zdrojů ok: %2$d, chyb: %3$d</string>
+    <string name="refresh_failed">Obnovení se nezdařilo</string>
+    <string name="source_refreshed">Nových článků: %1$d</string>
+    <string name="source_refresh_failed">Kanál se nepodařilo načíst</string>
+    <string name="url_required">Zadejte URL kanálu</string>
+    <string name="source_exists">Tento kanál už je mezi vašimi zdroji</string>
+    <string name="source_added">Zdroj přidán</string>
+    <string name="delete_source_q">Smazat tento zdroj a jeho články? Oblíbené zůstanou zachovány.</string>
+    <string name="validating">Kontrola kanálu…</string>
+    <string name="invalid_feed">Tento kanál nelze přečíst. Zkontrolujte URL.</string>
+
+    <string name="favorited">Uloženo do oblíbených</string>
+    <string name="unfavorited">Odebráno z oblíbených</string>
+    <string name="no_content_online">Tento článek se čte online. Klepnutím jej otevřete.</string>
+    <string name="by_author">%1$s</string>
+
+    <string name="first_run_title">Jak chcete číst?</string>
+    <string name="first_run_message">Zvolte, jak se mají články zpracovávat. Můžete to změnit později v Nastavení.</string>
+    <string name="mode_local_title">Ukládat lokálně</string>
+    <string name="mode_local_desc">Stáhnout a uchovat plné znění článků v tomto zařízení. Čtěte offline.</string>
+    <string name="mode_online_title">Číst online</string>
+    <string name="mode_online_desc">Uchovávat jen titulky; po klepnutí otevřít celý článek na webu.</string>
+
+    <string name="setting_storage_header">Čtení a úložiště</string>
+    <string name="setting_store_local">Ukládat články lokálně</string>
+    <string name="setting_store_local_sub">Vypnuto = číst články jen online (oblíbené se vždy uchovávají)</string>
+    <string name="setting_show_images">Zobrazovat obrázky v článcích</string>
+    <string name="setting_show_images_sub">Načítat obrázky z kanálů (vypnuto = pouze text)</string>
+    <string name="images_warning_title">Zobrazit obrázky?</string>
+    <string name="images_warning_message">Obrázky se načítají přímo ze serverů jednotlivých kanálů. Tím se vaše IP adresa (a přibližná poloha/síť) prozradí tomu, kdo obrázek hostuje — může to sloužit ke sledování. Již uložené oblíbené to neovlivní. Načíst obrázky přesto?</string>
+    <string name="images_enable">Povolit obrázky</string>
+
+    <string name="setting_refresh_header">Aktualizace na pozadí</string>
+    <string name="setting_auto_refresh">Automaticky obnovovat na pozadí</string>
+    <string name="setting_auto_refresh_sub">Pravidelně stahovat nové články, i když je aplikace zavřená</string>
+    <string name="setting_push">Upozorňovat na nové články</string>
+    <string name="setting_push_sub">Zobrazit oznámení, když obnovení na pozadí najde nové články</string>
+    <string name="setting_interval">Interval obnovování</string>
+    <string name="setting_about">O této aplikaci</string>
+    <string name="notif_permission_needed">Povolte oznámení pro upozornění na nové články</string>
+
+    <string name="channel_new_items">Nové články</string>
+    <string name="channel_new_items_desc">Upozornění, když obnovení na pozadí najde nové články</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d nový článek</item>
+        <item quantity="few">%d nové články</item>
+        <item quantity="many">%d nových článků</item>
+        <item quantity="other">%d nových článků</item>
+    </plurals>
+
+    <string name="title_privacy">Soukromí</string>
+    <string name="privacy">Soukromí</string>
+
+    <string name="about_app_tagline">Přehledná a pokročilá čtečka RSS.</string>
+    <string name="about_version">Verze %1$s</string>
+    <string name="about_developer_header">Vývojář</string>
+
+    <string name="no_connection">Žádné připojení k internetu</string>
+    <string name="offline_cant_refresh">Jste offline — připojte se k internetu pro obnovení</string>
+    <string name="offline_article">Jste offline. Tento článek se otevírá online — připojte se k internetu a zkuste to znovu.</string>
+    <string name="offline_validate">Jste offline — připojte se k internetu pro přidání kanálu</string>
+    <string name="blocked_link">Tento odkaz byl zablokován pro vaši bezpečnost</string>
+    <string name="web_load_error">Stránku se nepodařilo načíst</string>
+
+    <string name="pro_dialog_title">Přejít na Pro</string>
+    <string name="pro_dialog_message">Bezplatná verze je omezena na %1$d zdrojů.\n\nZískejte „RSS Reader Advanced Pro“ na Google Play pro neomezené zdroje.</string>
+    <string name="pro_get">Získat Pro</string>
+    <string name="pro_later">Teď ne</string>
+
+    <string name="cd_favorite">Oblíbené</string>
+    <string name="cd_add">Přidat zdroj</string>
+</resources>

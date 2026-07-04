@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Data transfer rules for Android 12 (API 31) and higher.
+   cloud-backup:    what Google Cloud backup stores.
+   device-transfer: what is copied during device-to-device transfer.
+   We back up the feed database and settings in both cases.
+   https://developer.android.com/about/versions/12/backup-restore#xml-changes
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="rssreader.db" />
+        <include domain="sharedpref" path="rss_prefs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="rssreader.db" />
+        <include domain="sharedpref" path="rss_prefs.xml" />
+    </device-transfer>
+</data-extraction-rules>

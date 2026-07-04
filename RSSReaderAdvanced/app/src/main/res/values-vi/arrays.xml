@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Mới nhất trước</item>
+        <item>Cũ nhất trước</item>
+        <item>Tiêu đề (A–Z)</item>
+        <item>Nguồn (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Mỗi 15 phút</item>
+        <item>Mỗi 30 phút</item>
+        <item>Mỗi giờ</item>
+        <item>Mỗi 3 giờ</item>
+        <item>Mỗi 6 giờ</item>
+        <item>Một lần mỗi ngày</item>
+    </string-array>
+</resources>

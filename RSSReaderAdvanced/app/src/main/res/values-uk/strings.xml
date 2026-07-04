@@ -1,0 +1,126 @@
+<resources>
+    <string name="nav_all">Усі статті</string>
+    <string name="nav_sources">Джерела</string>
+    <string name="nav_favorites">Обране</string>
+
+    <string name="title_add_source">Додати джерело</string>
+    <string name="title_edit_source">Редагувати джерело</string>
+    <string name="title_settings">Налаштування</string>
+    <string name="title_about">Про застосунок</string>
+
+    <string name="refresh_all">Оновити все</string>
+    <string name="add">Додати</string>
+    <string name="save">Зберегти</string>
+    <string name="cancel">Скасувати</string>
+    <string name="delete">Видалити</string>
+    <string name="edit">Редагувати</string>
+    <string name="settings">Налаштування</string>
+    <string name="about">Про застосунок</string>
+    <string name="open_in_browser">Відкрити у браузері</string>
+    <string name="share">Поділитися</string>
+    <string name="send_email">Надіслати електронною поштою</string>
+    <string name="copy_link">Копіювати посилання</string>
+    <string name="text_larger">Більший текст</string>
+    <string name="text_smaller">Менший текст</string>
+    <string name="link_copied">Посилання скопійовано</string>
+    <string name="no_email_app">Не знайдено поштовий застосунок</string>
+    <string name="search">Пошук</string>
+    <string name="search_hint">Пошук статей…</string>
+    <string name="mark_all_read">Позначити всі як прочитані</string>
+    <string name="marked_all_read">Усі позначено як прочитані</string>
+    <string name="import_opml">Імпорт стрічок (OPML)</string>
+    <string name="export_opml">Експорт стрічок (OPML)</string>
+    <string name="opml_exported">Експортовано стрічок: %1$d</string>
+    <string name="opml_export_failed">Не вдалося експортувати</string>
+    <string name="opml_imported">Імпортовано нових стрічок: %1$d</string>
+    <string name="opml_import_none">У цьому файлі не знайдено нових стрічок</string>
+    <string name="opml_import_failed">Не вдалося прочитати цей файл OPML</string>
+    <string name="opml_import_limited">Імпортовано стрічок: %1$d. Безкоштовна версія обмежена %2$d — придбайте Pro для необмеженої кількості.</string>
+
+    <string name="sort_by">Сортування:</string>
+    <string name="filter_by">Джерело:</string>
+    <string name="all_sources">Усі джерела</string>
+    <string name="empty_items">Поки що немає статей.\nДодайте джерело та оновіть, щоб завантажити статті.</string>
+    <string name="empty_favorites">Поки що немає обраного.\nНатисніть зірочку біля статті, щоб зберегти її тут.</string>
+    <string name="empty_sources">Поки що немає джерел.\nНатисніть +, щоб додати стрічку.</string>
+
+    <string name="add_custom_feed">Власна стрічка</string>
+    <string name="source_name">Назва</string>
+    <string name="source_url">URL стрічки (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Примітка: додавання або оновлення стрічки підключає ваш пристрій до сервера цього джерела, яке може отримати вашу IP-адресу та деталі запиту. Перегляньте політику конфіденційності та умови захисту даних кожного джерела, щоб дізнатися, як вони використовують ці дані.</string>
+    <string name="from_catalogue">З каталогу</string>
+    <string name="custom">Власна</string>
+    <string name="items_count">Статей: %1$d</string>
+    <string name="refreshing">Оновлення…</string>
+    <string name="refresh_done">Нових статей: %1$d · джерел успішно: %2$d, з помилкою: %3$d</string>
+    <string name="refresh_failed">Не вдалося оновити</string>
+    <string name="source_refreshed">Нових статей: %1$d</string>
+    <string name="source_refresh_failed">Не вдалося завантажити стрічку</string>
+    <string name="url_required">Введіть URL стрічки</string>
+    <string name="source_exists">Ця стрічка вже є у ваших джерелах</string>
+    <string name="source_added">Джерело додано</string>
+    <string name="delete_source_q">Видалити це джерело та його статті? Обране зберігається.</string>
+    <string name="validating">Перевірка стрічки…</string>
+    <string name="invalid_feed">Не вдалося прочитати цю стрічку. Перевірте URL.</string>
+
+    <string name="favorited">Збережено в обране</string>
+    <string name="unfavorited">Видалено з обраного</string>
+    <string name="no_content_online">Цю статтю читають онлайн. Натисніть, щоб відкрити.</string>
+    <string name="by_author">автор: %1$s</string>
+
+    <string name="first_run_title">Як ви хочете читати?</string>
+    <string name="first_run_message">Виберіть, як обробляти статті. Це можна змінити пізніше в Налаштуваннях.</string>
+    <string name="mode_local_title">Зберігати локально</string>
+    <string name="mode_local_desc">Завантажуйте та зберігайте повний текст статей на цьому пристрої. Читайте офлайн.</string>
+    <string name="mode_online_title">Читати онлайн</string>
+    <string name="mode_online_desc">Зберігати лише заголовки; відкривати повну статтю в інтернеті після натискання.</string>
+
+    <string name="setting_storage_header">Читання та зберігання</string>
+    <string name="setting_store_local">Зберігати статті локально</string>
+    <string name="setting_store_local_sub">Вимк. = читати статті лише онлайн (обране завжди зберігається)</string>
+    <string name="setting_show_images">Показувати зображення у статтях</string>
+    <string name="setting_show_images_sub">Завантажувати зображення зі стрічок (вимк. = лише текст)</string>
+    <string name="images_warning_title">Показувати зображення?</string>
+    <string name="images_warning_message">Зображення завантажуються безпосередньо із серверів кожної стрічки. При цьому ваша IP-адреса (та приблизне розташування/мережа) стає відомою тому, хто розміщує зображення, — це можна використати для стеження. Уже збережене обране не зачіпається. Усе одно завантажувати зображення?</string>
+    <string name="images_enable">Увімкнути зображення</string>
+
+    <string name="setting_refresh_header">Фонові оновлення</string>
+    <string name="setting_auto_refresh">Автоматично оновлювати у фоні</string>
+    <string name="setting_auto_refresh_sub">Періодично отримувати нові статті, навіть коли застосунок закрито</string>
+    <string name="setting_push">Сповіщати про нові статті</string>
+    <string name="setting_push_sub">Показувати сповіщення, коли фонове оновлення знаходить нові статті</string>
+    <string name="setting_interval">Інтервал оновлення</string>
+    <string name="setting_about">Про цей застосунок</string>
+    <string name="notif_permission_needed">Дозвольте сповіщення, щоб отримувати оповіщення про нові статті</string>
+
+    <string name="channel_new_items">Нові статті</string>
+    <string name="channel_new_items_desc">Оповіщення, коли фонове оновлення знаходить нові статті</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d нова стаття</item>
+        <item quantity="few">%d нові статті</item>
+        <item quantity="many">%d нових статей</item>
+        <item quantity="other">%d нових статей</item>
+    </plurals>
+
+    <string name="title_privacy">Конфіденційність</string>
+    <string name="privacy">Конфіденційність</string>
+
+    <string name="about_app_tagline">Простий та потужний застосунок для читання RSS.</string>
+    <string name="about_version">Версія %1$s</string>
+    <string name="about_developer_header">Розробник</string>
+
+    <string name="no_connection">Немає підключення до Інтернету</string>
+    <string name="offline_cant_refresh">Ви офлайн — підключіться до Інтернету, щоб оновити</string>
+    <string name="offline_article">Ви офлайн. Ця стаття відкривається онлайн — підключіться до Інтернету та спробуйте ще раз.</string>
+    <string name="offline_validate">Ви офлайн — підключіться до Інтернету, щоб додати стрічку</string>
+    <string name="blocked_link">Це посилання заблоковано задля вашої безпеки</string>
+    <string name="web_load_error">Не вдалося завантажити сторінку</string>
+
+    <string name="pro_dialog_title">Перейти на Pro</string>
+    <string name="pro_dialog_message">Безкоштовна версія обмежена %1$d джерелами.\n\nВстановіть «RSS Reader Advanced Pro» у Google Play для необмеженої кількості джерел.</string>
+    <string name="pro_get">Отримати Pro</string>
+    <string name="pro_later">Не зараз</string>
+
+    <string name="cd_favorite">В обране</string>
+    <string name="cd_add">Додати джерело</string>
+</resources>

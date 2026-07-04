@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Neueste zuerst</item>
+        <item>Älteste zuerst</item>
+        <item>Titel (A–Z)</item>
+        <item>Quelle (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Alle 15 Minuten</item>
+        <item>Alle 30 Minuten</item>
+        <item>Jede Stunde</item>
+        <item>Alle 3 Stunden</item>
+        <item>Alle 6 Stunden</item>
+        <item>Einmal täglich</item>
+    </string-array>
+</resources>

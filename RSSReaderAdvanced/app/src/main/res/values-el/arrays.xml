@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Νεότερα πρώτα</item>
+        <item>Παλαιότερα πρώτα</item>
+        <item>Τίτλος (Α–Ω)</item>
+        <item>Πηγή (Α–Ω)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Κάθε 15 λεπτά</item>
+        <item>Κάθε 30 λεπτά</item>
+        <item>Κάθε ώρα</item>
+        <item>Κάθε 3 ώρες</item>
+        <item>Κάθε 6 ώρες</item>
+        <item>Μία φορά την ημέρα</item>
+    </string-array>
+</resources>

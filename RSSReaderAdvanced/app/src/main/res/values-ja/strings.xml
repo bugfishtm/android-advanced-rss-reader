@@ -1,0 +1,137 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">すべての記事</string>
+    <string name="nav_sources">ソース</string>
+    <string name="nav_favorites">お気に入り</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">ソースを追加</string>
+    <string name="title_edit_source">ソースを編集</string>
+    <string name="title_settings">設定</string>
+    <string name="title_about">アプリについて</string>
+
+    <!-- Common -->
+    <string name="refresh_all">すべて更新</string>
+    <string name="add">追加</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="edit">編集</string>
+    <string name="settings">設定</string>
+    <string name="about">アプリについて</string>
+    <string name="open_in_browser">ブラウザで開く</string>
+    <string name="share">共有</string>
+    <string name="send_email">メールで送信</string>
+    <string name="copy_link">リンクをコピー</string>
+    <string name="text_larger">文字を大きく</string>
+    <string name="text_smaller">文字を小さく</string>
+    <string name="link_copied">リンクをコピーしました</string>
+    <string name="no_email_app">メールアプリが見つかりません</string>
+    <string name="search">検索</string>
+    <string name="search_hint">記事を検索…</string>
+    <string name="mark_all_read">すべて既読にする</string>
+    <string name="marked_all_read">すべて既読にしました</string>
+    <string name="import_opml">フィードをインポート (OPML)</string>
+    <string name="export_opml">フィードをエクスポート (OPML)</string>
+    <string name="opml_exported">%1$d 件のフィードをエクスポートしました</string>
+    <string name="opml_export_failed">エクスポートに失敗しました</string>
+    <string name="opml_imported">%1$d 件の新しいフィードをインポートしました</string>
+    <string name="opml_import_none">このファイルに新しいフィードは見つかりませんでした</string>
+    <string name="opml_import_failed">その OPML ファイルを読み込めませんでした</string>
+    <string name="opml_import_limited">%1$d 件のフィードをインポートしました。無料版は %2$d 件までです。Pro で無制限に。</string>
+
+    <!-- All items -->
+    <string name="sort_by">並び替え:</string>
+    <string name="filter_by">ソース:</string>
+    <string name="all_sources">すべてのソース</string>
+    <string name="empty_items">記事がまだありません。\nソースを追加して更新すると記事が読み込まれます。</string>
+    <string name="empty_favorites">お気に入りがまだありません。\n記事の星をタップするとここに保存されます。</string>
+    <string name="empty_sources">ソースがまだありません。\n+ をタップしてフィードを追加してください。</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">カスタムフィード</string>
+    <string name="source_name">名前</string>
+    <string name="source_url">フィード URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">注意：フィードを追加または更新すると、お使いのデバイスがそのソースのサーバーに接続し、相手はあなたの IP アドレスやリクエスト情報を受け取る場合があります。データの扱いについては、各ソースのプライバシーポリシーおよびデータ保護規約をご確認ください。</string>
+    <string name="from_catalogue">カタログから</string>
+    <string name="custom">カスタム</string>
+    <string name="items_count">%1$d 件の記事</string>
+    <string name="refreshing">更新中…</string>
+    <string name="refresh_done">新着 %1$d 件 · ソース成功 %2$d 件、失敗 %3$d 件</string>
+    <string name="refresh_failed">更新に失敗しました</string>
+    <string name="source_refreshed">新着 %1$d 件</string>
+    <string name="source_refresh_failed">フィードを読み込めませんでした</string>
+    <string name="url_required">フィード URL を入力してください</string>
+    <string name="source_exists">そのフィードはすでにソースに登録されています</string>
+    <string name="source_added">ソースを追加しました</string>
+    <string name="delete_source_q">このソースとその記事を削除しますか？ お気に入りは保持されます。</string>
+    <string name="validating">フィードを確認中…</string>
+    <string name="invalid_feed">そのフィードを読み込めませんでした。URL を確認してください。</string>
+
+    <!-- Detail -->
+    <string name="favorited">お気に入りに保存しました</string>
+    <string name="unfavorited">お気に入りから削除しました</string>
+    <string name="no_content_online">この記事はオンラインで読みます。タップして開いてください。</string>
+    <string name="by_author">%1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">どのように読みますか？</string>
+    <string name="first_run_message">記事の扱い方を選んでください。後から設定で変更できます。</string>
+    <string name="mode_local_title">ローカルに保存</string>
+    <string name="mode_local_desc">記事の全文をこの端末にダウンロードして保存します。オフラインで読めます。</string>
+    <string name="mode_online_title">オンラインで読む</string>
+    <string name="mode_online_desc">見出しのみ保持し、タップ時に記事全文をウェブで開きます。</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">読み込みと保存</string>
+    <string name="setting_store_local">記事をローカルに保存</string>
+    <string name="setting_store_local_sub">オフ = 記事をオンラインのみで読む（お気に入りは常に保持）</string>
+    <string name="setting_show_images">記事に画像を表示</string>
+    <string name="setting_show_images_sub">フィードの画像を読み込む（オフ = テキストのみ）</string>
+    <string name="images_warning_title">画像を表示しますか？</string>
+    <string name="images_warning_message">画像は各フィードのサーバーから直接読み込まれます。その際、画像を配信する側にあなたの IP アドレス（およびおおよその位置・ネットワーク）が伝わり、追跡に利用される可能性があります。すでに保存したお気に入りには影響しません。それでも画像を読み込みますか？</string>
+    <string name="images_enable">画像を有効にする</string>
+
+    <string name="setting_refresh_header">バックグラウンド更新</string>
+    <string name="setting_auto_refresh">バックグラウンドで自動更新</string>
+    <string name="setting_auto_refresh_sub">アプリを閉じていても定期的に新着記事を取得します</string>
+    <string name="setting_push">新着記事を通知する</string>
+    <string name="setting_push_sub">バックグラウンド更新で新着記事が見つかったときに通知を表示します</string>
+    <string name="setting_interval">更新間隔</string>
+    <string name="setting_about">このアプリについて</string>
+    <string name="notif_permission_needed">新着記事の通知を受け取るには通知を許可してください</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">新着記事</string>
+    <string name="channel_new_items_desc">バックグラウンド更新で新着記事が見つかったときの通知</string>
+    <plurals name="new_items_notification">
+        <item quantity="other">新着記事 %d 件</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">プライバシー</string>
+    <string name="privacy">プライバシー</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">シンプルで高機能な RSS リーダー。</string>
+    <string name="about_version">バージョン %1$s</string>
+    <string name="about_developer_header">開発者</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">インターネット接続がありません</string>
+    <string name="offline_cant_refresh">オフラインです。更新するにはインターネットに接続してください</string>
+    <string name="offline_article">オフラインです。この記事はオンラインで開きます。インターネットに接続してからもう一度お試しください。</string>
+    <string name="offline_validate">オフラインです。フィードを追加するにはインターネットに接続してください</string>
+    <string name="blocked_link">安全のためこのリンクはブロックされました</string>
+    <string name="web_load_error">ページを読み込めませんでした</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">Pro にアップグレード</string>
+    <string name="pro_dialog_message">無料版はソース %1$d 件までです。\n\nGoogle Play で「RSS Reader Advanced Pro」を入手すると無制限になります。</string>
+    <string name="pro_get">Pro を入手</string>
+    <string name="pro_later">後で</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">お気に入り</string>
+    <string name="cd_add">ソースを追加</string>
+</resources>

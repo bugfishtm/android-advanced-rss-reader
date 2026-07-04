@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>最新优先</item>
+        <item>最旧优先</item>
+        <item>标题 (A–Z)</item>
+        <item>订阅源 (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>每 15 分钟</item>
+        <item>每 30 分钟</item>
+        <item>每小时</item>
+        <item>每 3 小时</item>
+        <item>每 6 小时</item>
+        <item>每天一次</item>
+    </string-array>
+</resources>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="nav_all">Semua artikel</string>
+    <string name="nav_sources">Sumber</string>
+    <string name="nav_favorites">Favorit</string>
+
+    <string name="title_add_source">Tambah sumber</string>
+    <string name="title_edit_source">Edit sumber</string>
+    <string name="title_settings">Setelan</string>
+    <string name="title_about">Tentang</string>
+
+    <string name="refresh_all">Segarkan semua</string>
+    <string name="add">Tambah</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="settings">Setelan</string>
+    <string name="about">Tentang</string>
+    <string name="open_in_browser">Buka di browser</string>
+    <string name="share">Bagikan</string>
+    <string name="send_email">Kirim lewat email</string>
+    <string name="copy_link">Salin tautan</string>
+    <string name="text_larger">Teks lebih besar</string>
+    <string name="text_smaller">Teks lebih kecil</string>
+    <string name="link_copied">Tautan disalin</string>
+    <string name="no_email_app">Tidak ada aplikasi email ditemukan</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Cari artikel…</string>
+    <string name="mark_all_read">Tandai semua telah dibaca</string>
+    <string name="marked_all_read">Semua ditandai telah dibaca</string>
+    <string name="import_opml">Impor feed (OPML)</string>
+    <string name="export_opml">Ekspor feed (OPML)</string>
+    <string name="opml_exported">%1$d feed diekspor</string>
+    <string name="opml_export_failed">Ekspor gagal</string>
+    <string name="opml_imported">%1$d feed baru diimpor</string>
+    <string name="opml_import_none">Tidak ada feed baru ditemukan di file itu</string>
+    <string name="opml_import_failed">Tidak dapat membaca file OPML itu</string>
+    <string name="opml_import_limited">%1$d feed diimpor. Versi gratis dibatasi hingga %2$d — dapatkan Pro untuk tanpa batas.</string>
+
+    <string name="sort_by">Urutkan:</string>
+    <string name="filter_by">Sumber:</string>
+    <string name="all_sources">Semua sumber</string>
+    <string name="empty_items">Belum ada artikel.\nTambahkan sumber dan segarkan untuk memuat artikel.</string>
+    <string name="empty_favorites">Belum ada favorit.\nKetuk bintang pada artikel untuk menyimpannya di sini.</string>
+    <string name="empty_sources">Belum ada sumber.\nKetuk + untuk menambahkan feed.</string>
+
+    <string name="add_custom_feed">Feed khusus</string>
+    <string name="source_name">Nama</string>
+    <string name="source_url">URL feed (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Catatan: menambahkan atau menyegarkan feed menghubungkan perangkat Anda ke server sumber tersebut, yang dapat menerima alamat IP dan detail permintaan Anda. Tinjau kebijakan privasi dan ketentuan perlindungan data masing-masing sumber untuk mengetahui cara mereka menggunakan data ini.</string>
+    <string name="from_catalogue">Dari katalog</string>
+    <string name="custom">Khusus</string>
+    <string name="items_count">%1$d artikel</string>
+    <string name="refreshing">Menyegarkan…</string>
+    <string name="refresh_done">%1$d artikel baru · %2$d sumber ok, %3$d gagal</string>
+    <string name="refresh_failed">Penyegaran gagal</string>
+    <string name="source_refreshed">%1$d artikel baru</string>
+    <string name="source_refresh_failed">Tidak dapat memuat feed</string>
+    <string name="url_required">Masukkan URL feed</string>
+    <string name="source_exists">Feed itu sudah ada di sumber Anda</string>
+    <string name="source_added">Sumber ditambahkan</string>
+    <string name="delete_source_q">Hapus sumber ini beserta artikelnya? Favorit tetap disimpan.</string>
+    <string name="validating">Memeriksa feed…</string>
+    <string name="invalid_feed">Tidak dapat membaca feed itu. Periksa URL-nya.</string>
+
+    <string name="favorited">Disimpan ke favorit</string>
+    <string name="unfavorited">Dihapus dari favorit</string>
+    <string name="no_content_online">Artikel ini dibaca online. Ketuk untuk membukanya.</string>
+    <string name="by_author">oleh %1$s</string>
+
+    <string name="first_run_title">Bagaimana Anda ingin membaca?</string>
+    <string name="first_run_message">Pilih cara artikel dikelola. Anda dapat mengubahnya nanti di Setelan.</string>
+    <string name="mode_local_title">Simpan secara lokal</string>
+    <string name="mode_local_desc">Unduh dan simpan teks lengkap artikel di perangkat ini. Baca offline.</string>
+    <string name="mode_online_title">Baca online</string>
+    <string name="mode_online_desc">Simpan hanya judul; buka artikel lengkap di web saat Anda mengetuk.</string>
+
+    <string name="setting_storage_header">Membaca &amp; penyimpanan</string>
+    <string name="setting_store_local">Simpan artikel secara lokal</string>
+    <string name="setting_store_local_sub">Nonaktif = baca artikel hanya online (favorit selalu disimpan)</string>
+    <string name="setting_show_images">Tampilkan gambar di artikel</string>
+    <string name="setting_show_images_sub">Muat gambar dari feed (nonaktif = teks saja)</string>
+    <string name="images_warning_title">Tampilkan gambar?</string>
+    <string name="images_warning_message">Gambar dimuat langsung dari server masing-masing feed. Melakukannya akan mengungkap alamat IP Anda (dan perkiraan lokasi/jaringan) kepada pihak yang menghosting gambar — ini dapat digunakan untuk melacak Anda. Favorit yang sudah disimpan tidak terpengaruh. Tetap muat gambar?</string>
+    <string name="images_enable">Aktifkan gambar</string>
+
+    <string name="setting_refresh_header">Pembaruan latar belakang</string>
+    <string name="setting_auto_refresh">Segarkan otomatis di latar belakang</string>
+    <string name="setting_auto_refresh_sub">Ambil artikel baru secara berkala meski aplikasi ditutup</string>
+    <string name="setting_push">Beri tahu saya tentang artikel baru</string>
+    <string name="setting_push_sub">Tampilkan notifikasi saat penyegaran latar belakang menemukan artikel baru</string>
+    <string name="setting_interval">Interval penyegaran</string>
+    <string name="setting_about">Tentang aplikasi ini</string>
+    <string name="notif_permission_needed">Izinkan notifikasi untuk menerima peringatan artikel baru</string>
+
+    <string name="channel_new_items">Artikel baru</string>
+    <string name="channel_new_items_desc">Peringatan saat penyegaran latar belakang menemukan artikel baru</string>
+    <plurals name="new_items_notification">
+        <item quantity="other">%d artikel baru</item>
+    </plurals>
+
+    <string name="title_privacy">Privasi</string>
+    <string name="privacy">Privasi</string>
+
+    <string name="about_app_tagline">Pembaca RSS yang bersih dan canggih.</string>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_developer_header">Pengembang</string>
+
+    <string name="no_connection">Tidak ada koneksi internet</string>
+    <string name="offline_cant_refresh">Anda sedang offline — sambungkan ke internet untuk menyegarkan</string>
+    <string name="offline_article">Anda sedang offline. Artikel ini dibuka online — sambungkan ke internet lalu coba lagi.</string>
+    <string name="offline_validate">Anda sedang offline — sambungkan ke internet untuk menambahkan feed</string>
+    <string name="blocked_link">Tautan ini diblokir demi keamanan Anda</string>
+    <string name="web_load_error">Tidak dapat memuat halaman</string>
+
+    <string name="pro_dialog_title">Tingkatkan ke Pro</string>
+    <string name="pro_dialog_message">Versi gratis dibatasi hingga %1$d sumber.\n\nDapatkan \"RSS Reader Advanced Pro\" di Google Play untuk sumber tanpa batas.</string>
+    <string name="pro_get">Dapatkan Pro</string>
+    <string name="pro_later">Nanti saja</string>
+
+    <string name="cd_favorite">Favorit</string>
+    <string name="cd_add">Tambah sumber</string>
+</resources>

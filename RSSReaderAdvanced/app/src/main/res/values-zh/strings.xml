@@ -1,0 +1,137 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">全部文章</string>
+    <string name="nav_sources">订阅源</string>
+    <string name="nav_favorites">收藏</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">添加订阅源</string>
+    <string name="title_edit_source">编辑订阅源</string>
+    <string name="title_settings">设置</string>
+    <string name="title_about">关于</string>
+
+    <!-- Common -->
+    <string name="refresh_all">全部刷新</string>
+    <string name="add">添加</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="open_in_browser">在浏览器中打开</string>
+    <string name="share">分享</string>
+    <string name="send_email">通过电子邮件发送</string>
+    <string name="copy_link">复制链接</string>
+    <string name="text_larger">放大文字</string>
+    <string name="text_smaller">缩小文字</string>
+    <string name="link_copied">链接已复制</string>
+    <string name="no_email_app">未找到电子邮件应用</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索文章…</string>
+    <string name="mark_all_read">全部标为已读</string>
+    <string name="marked_all_read">已全部标为已读</string>
+    <string name="import_opml">导入订阅源 (OPML)</string>
+    <string name="export_opml">导出订阅源 (OPML)</string>
+    <string name="opml_exported">已导出 %1$d 个订阅源</string>
+    <string name="opml_export_failed">导出失败</string>
+    <string name="opml_imported">已导入 %1$d 个新订阅源</string>
+    <string name="opml_import_none">该文件中没有找到新的订阅源</string>
+    <string name="opml_import_failed">无法读取该 OPML 文件</string>
+    <string name="opml_import_limited">已导入 %1$d 个订阅源。免费版限制为 %2$d 个——升级 Pro 可无限添加。</string>
+
+    <!-- All items -->
+    <string name="sort_by">排序：</string>
+    <string name="filter_by">订阅源：</string>
+    <string name="all_sources">全部订阅源</string>
+    <string name="empty_items">暂无文章。\n添加订阅源并刷新以加载文章。</string>
+    <string name="empty_favorites">暂无收藏。\n点击任意文章上的星标即可保存到此处。</string>
+    <string name="empty_sources">暂无订阅源。\n点击 + 添加订阅源。</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">自定义订阅源</string>
+    <string name="source_name">名称</string>
+    <string name="source_url">订阅源网址 (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">注意：添加或刷新订阅源会将您的设备连接到该来源的服务器，对方可能获取您的 IP 地址和请求信息。请查阅每个来源自己的隐私政策和数据保护条款，了解他们如何使用这些数据。</string>
+    <string name="from_catalogue">从目录添加</string>
+    <string name="custom">自定义</string>
+    <string name="items_count">%1$d 篇文章</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="refresh_done">%1$d 篇新文章 · %2$d 个订阅源成功，%3$d 个失败</string>
+    <string name="refresh_failed">刷新失败</string>
+    <string name="source_refreshed">%1$d 篇新文章</string>
+    <string name="source_refresh_failed">无法加载订阅源</string>
+    <string name="url_required">请输入订阅源网址</string>
+    <string name="source_exists">该订阅源已在您的列表中</string>
+    <string name="source_added">已添加订阅源</string>
+    <string name="delete_source_q">删除此订阅源及其文章？收藏将保留。</string>
+    <string name="validating">正在检查订阅源…</string>
+    <string name="invalid_feed">无法读取该订阅源，请检查网址。</string>
+
+    <!-- Detail -->
+    <string name="favorited">已保存到收藏</string>
+    <string name="unfavorited">已从收藏移除</string>
+    <string name="no_content_online">此文章需在线阅读。点击打开。</string>
+    <string name="by_author">作者：%1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">您想如何阅读？</string>
+    <string name="first_run_message">选择文章的处理方式。稍后可在“设置”中更改。</string>
+    <string name="mode_local_title">本地保存</string>
+    <string name="mode_local_desc">下载并在本设备保存文章全文，可离线阅读。</string>
+    <string name="mode_online_title">在线阅读</string>
+    <string name="mode_online_desc">仅保留标题；点击时在网页打开完整文章。</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">阅读与存储</string>
+    <string name="setting_store_local">本地保存文章</string>
+    <string name="setting_store_local_sub">关闭 = 仅在线阅读文章（收藏始终保留）</string>
+    <string name="setting_show_images">在文章中显示图片</string>
+    <string name="setting_show_images_sub">加载订阅源中的图片（关闭 = 仅文字）</string>
+    <string name="images_warning_title">显示图片？</string>
+    <string name="images_warning_message">图片会直接从各订阅源的服务器加载。这样做会向图片托管方暴露您的 IP 地址（以及大致位置/网络）——这可能被用于跟踪您。已保存的收藏不受影响。仍要加载图片吗？</string>
+    <string name="images_enable">启用图片</string>
+
+    <string name="setting_refresh_header">后台更新</string>
+    <string name="setting_auto_refresh">后台自动刷新</string>
+    <string name="setting_auto_refresh_sub">即使应用已关闭，也定期获取新文章</string>
+    <string name="setting_push">通知我有新文章</string>
+    <string name="setting_push_sub">当后台刷新发现新文章时显示通知</string>
+    <string name="setting_interval">刷新间隔</string>
+    <string name="setting_about">关于此应用</string>
+    <string name="notif_permission_needed">允许通知以接收新文章提醒</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">新文章</string>
+    <string name="channel_new_items_desc">当后台刷新发现新文章时提醒</string>
+    <plurals name="new_items_notification">
+        <item quantity="other">%d 篇新文章</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">隐私</string>
+    <string name="privacy">隐私</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">简洁而强大的 RSS 阅读器。</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_developer_header">开发者</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">无网络连接</string>
+    <string name="offline_cant_refresh">您已离线——请连接网络后刷新</string>
+    <string name="offline_article">您已离线。此文章需在线打开——请连接网络后重试。</string>
+    <string name="offline_validate">您已离线——请连接网络后再添加订阅源</string>
+    <string name="blocked_link">为保护您的安全，此链接已被拦截</string>
+    <string name="web_load_error">无法加载页面</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">升级到 Pro</string>
+    <string name="pro_dialog_message">免费版最多可添加 %1$d 个订阅源。\n\n在 Google Play 获取“RSS Reader Advanced Pro”即可无限添加。</string>
+    <string name="pro_get">获取 Pro</string>
+    <string name="pro_later">暂不</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">收藏</string>
+    <string name="cd_add">添加订阅源</string>
+</resources>

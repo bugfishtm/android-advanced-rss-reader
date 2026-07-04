@@ -1,0 +1,4 @@
+<resources>
+    <!-- Pro flavour overrides the app name; everything else comes from main. -->
+    <string name="app_name">RSS Reader Advanced Pro</string>
+</resources>

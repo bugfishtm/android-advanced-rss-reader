@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Önce en yeni</item>
+        <item>Önce en eski</item>
+        <item>Başlık (A–Z)</item>
+        <item>Kaynak (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>15 dakikada bir</item>
+        <item>30 dakikada bir</item>
+        <item>Saatte bir</item>
+        <item>3 saatte bir</item>
+        <item>6 saatte bir</item>
+        <item>Günde bir kez</item>
+    </string-array>
+</resources>

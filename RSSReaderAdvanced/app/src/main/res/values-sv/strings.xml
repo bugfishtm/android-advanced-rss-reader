@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Alla artiklar</string>
+    <string name="nav_sources">Källor</string>
+    <string name="nav_favorites">Favoriter</string>
+
+    <string name="title_add_source">Lägg till källa</string>
+    <string name="title_edit_source">Redigera källa</string>
+    <string name="title_settings">Inställningar</string>
+    <string name="title_about">Om</string>
+
+    <string name="refresh_all">Uppdatera alla</string>
+    <string name="add">Lägg till</string>
+    <string name="save">Spara</string>
+    <string name="cancel">Avbryt</string>
+    <string name="delete">Ta bort</string>
+    <string name="edit">Redigera</string>
+    <string name="settings">Inställningar</string>
+    <string name="about">Om</string>
+    <string name="open_in_browser">Öppna i webbläsare</string>
+    <string name="share">Dela</string>
+    <string name="send_email">Skicka via e-post</string>
+    <string name="copy_link">Kopiera länk</string>
+    <string name="text_larger">Större text</string>
+    <string name="text_smaller">Mindre text</string>
+    <string name="link_copied">Länk kopierad</string>
+    <string name="no_email_app">Ingen e-postapp hittades</string>
+    <string name="search">Sök</string>
+    <string name="search_hint">Sök artiklar…</string>
+    <string name="mark_all_read">Markera alla som lästa</string>
+    <string name="marked_all_read">Alla markerade som lästa</string>
+    <string name="import_opml">Importera flöden (OPML)</string>
+    <string name="export_opml">Exportera flöden (OPML)</string>
+    <string name="opml_exported">%1$d flöden exporterade</string>
+    <string name="opml_export_failed">Exporten misslyckades</string>
+    <string name="opml_imported">%1$d nya flöden importerade</string>
+    <string name="opml_import_none">Inga nya flöden hittades i filen</string>
+    <string name="opml_import_failed">Det gick inte att läsa OPML-filen</string>
+    <string name="opml_import_limited">%1$d flöden importerade. Gratisversionen är begränsad till %2$d — skaffa Pro för obegränsat.</string>
+
+    <string name="sort_by">Sortera:</string>
+    <string name="filter_by">Källa:</string>
+    <string name="all_sources">Alla källor</string>
+    <string name="empty_items">Inga artiklar ännu.\nLägg till en källa och uppdatera för att hämta artiklar.</string>
+    <string name="empty_favorites">Inga favoriter ännu.\nTryck på stjärnan på en artikel för att spara den här.</string>
+    <string name="empty_sources">Inga källor ännu.\nTryck på + för att lägga till ett flöde.</string>
+
+    <string name="add_custom_feed">Eget flöde</string>
+    <string name="source_name">Namn</string>
+    <string name="source_url">Flödes-URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Obs: att lägga till eller uppdatera ett flöde ansluter din enhet till den källans server, som kan ta emot din IP-adress och begärandetaljer. Läs varje källas egen integritetspolicy och villkor för dataskydd för att se hur de använder dessa uppgifter.</string>
+    <string name="from_catalogue">Från katalogen</string>
+    <string name="custom">Anpassad</string>
+    <string name="items_count">%1$d artiklar</string>
+    <string name="refreshing">Uppdaterar…</string>
+    <string name="refresh_done">%1$d nya artiklar · %2$d källor ok, %3$d misslyckades</string>
+    <string name="refresh_failed">Uppdateringen misslyckades</string>
+    <string name="source_refreshed">%1$d nya artiklar</string>
+    <string name="source_refresh_failed">Det gick inte att läsa in flödet</string>
+    <string name="url_required">Ange en flödes-URL</string>
+    <string name="source_exists">Det flödet finns redan bland dina källor</string>
+    <string name="source_added">Källa tillagd</string>
+    <string name="delete_source_q">Ta bort den här källan och dess artiklar? Favoriter behålls.</string>
+    <string name="validating">Kontrollerar flödet…</string>
+    <string name="invalid_feed">Det gick inte att läsa flödet. Kontrollera URL:en.</string>
+
+    <string name="favorited">Sparad i favoriter</string>
+    <string name="unfavorited">Borttagen från favoriter</string>
+    <string name="no_content_online">Den här artikeln läses online. Tryck för att öppna.</string>
+    <string name="by_author">av %1$s</string>
+
+    <string name="first_run_title">Hur vill du läsa?</string>
+    <string name="first_run_message">Välj hur artiklar hanteras. Du kan ändra detta senare i Inställningar.</string>
+    <string name="mode_local_title">Spara lokalt</string>
+    <string name="mode_local_desc">Ladda ner och behåll hela artikeltexten på den här enheten. Läs offline.</string>
+    <string name="mode_online_title">Läs online</string>
+    <string name="mode_online_desc">Behåll bara rubrikerna; öppna hela artikeln på webben när du trycker.</string>
+
+    <string name="setting_storage_header">Läsning och lagring</string>
+    <string name="setting_store_local">Spara artiklar lokalt</string>
+    <string name="setting_store_local_sub">Av = läs artiklar endast online (favoriter behålls alltid)</string>
+    <string name="setting_show_images">Visa bilder i artiklar</string>
+    <string name="setting_show_images_sub">Läs in bilder från flöden (av = endast text)</string>
+    <string name="images_warning_title">Visa bilder?</string>
+    <string name="images_warning_message">Bilder läses in direkt från varje flödes servrar. Då avslöjas din IP-adress (och ungefärliga plats/nätverk) för den som är värd för bilden — detta kan användas för att spåra dig. Redan sparade favoriter påverkas inte. Läsa in bilder ändå?</string>
+    <string name="images_enable">Aktivera bilder</string>
+
+    <string name="setting_refresh_header">Bakgrundsuppdateringar</string>
+    <string name="setting_auto_refresh">Uppdatera automatiskt i bakgrunden</string>
+    <string name="setting_auto_refresh_sub">Hämta nya artiklar regelbundet även när appen är stängd</string>
+    <string name="setting_push">Meddela mig om nya artiklar</string>
+    <string name="setting_push_sub">Visa en avisering när bakgrundsuppdateringen hittar nya artiklar</string>
+    <string name="setting_interval">Uppdateringsintervall</string>
+    <string name="setting_about">Om den här appen</string>
+    <string name="notif_permission_needed">Tillåt aviseringar för att få meddelanden om nya artiklar</string>
+
+    <string name="channel_new_items">Nya artiklar</string>
+    <string name="channel_new_items_desc">Aviseringar när bakgrundsuppdateringen hittar nya artiklar</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d ny artikel</item>
+        <item quantity="other">%d nya artiklar</item>
+    </plurals>
+
+    <string name="title_privacy">Integritet</string>
+    <string name="privacy">Integritet</string>
+
+    <string name="about_app_tagline">En ren och avancerad RSS-läsare.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_developer_header">Utvecklare</string>
+
+    <string name="no_connection">Ingen internetanslutning</string>
+    <string name="offline_cant_refresh">Du är offline — anslut till internet för att uppdatera</string>
+    <string name="offline_article">Du är offline. Den här artikeln öppnas online — anslut till internet och försök igen.</string>
+    <string name="offline_validate">Du är offline — anslut till internet för att lägga till ett flöde</string>
+    <string name="blocked_link">Den här länken blockerades för din säkerhet</string>
+    <string name="web_load_error">Det gick inte att läsa in sidan</string>
+
+    <string name="pro_dialog_title">Uppgradera till Pro</string>
+    <string name="pro_dialog_message">Gratisversionen är begränsad till %1$d källor.\n\nSkaffa \"RSS Reader Advanced Pro\" på Google Play för obegränsade källor.</string>
+    <string name="pro_get">Skaffa Pro</string>
+    <string name="pro_later">Inte nu</string>
+
+    <string name="cd_favorite">Favorit</string>
+    <string name="cd_add">Lägg till källa</string>
+</resources>

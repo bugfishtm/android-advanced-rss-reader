@@ -1,0 +1,57 @@
+site_name: RSS Reader Advanced
+repo_url: https://github.com/bugfishtm/android-advanced-rss-reader
+repo_name: RSS-Reader-Advanced
+
+nav:
+    - Overview: index.md
+    - Download: download.md
+    - Contributing: contributing.md
+    - Warranty: warranty.md
+    - Support: support.md
+    - License: license.md
+    - Impressum: https://bugfishtm.github.io/impressum.html
+    - Privacy: https://bugfishtm.github.io/privacy.html
+
+theme:
+  name: material
+  logo: ./logo.png
+  favicon: ./favicon.ico
+  primary: deep orange
+  language: 'en'
+  accent: deep orange
+  font: false
+  features:
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+
+extra_css:
+  - extra.css
+
+extra_javascript:
+  - extra.js
+
+plugins:
+    - mkdocstrings
+    - search
+    - mkdocs-video
+    - glightbox
+    
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+use_directory_urls: false
+
+extra:
+  meta:
+    author: "Jan-Maurice Dahlmanns"

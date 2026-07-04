@@ -1,0 +1,138 @@
+<resources>
+    <!-- Bottom navigation -->
+    <string name="nav_all">Alle Artikel</string>
+    <string name="nav_sources">Quellen</string>
+    <string name="nav_favorites">Favoriten</string>
+
+    <!-- Titles -->
+    <string name="title_add_source">Quelle hinzufügen</string>
+    <string name="title_edit_source">Quelle bearbeiten</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="title_about">Über</string>
+
+    <!-- Common -->
+    <string name="refresh_all">Alle aktualisieren</string>
+    <string name="add">Hinzufügen</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="settings">Einstellungen</string>
+    <string name="about">Über</string>
+    <string name="open_in_browser">Im Browser öffnen</string>
+    <string name="share">Teilen</string>
+    <string name="send_email">Per E-Mail senden</string>
+    <string name="copy_link">Link kopieren</string>
+    <string name="text_larger">Größerer Text</string>
+    <string name="text_smaller">Kleinerer Text</string>
+    <string name="link_copied">Link kopiert</string>
+    <string name="no_email_app">Keine E-Mail-App gefunden</string>
+    <string name="search">Suchen</string>
+    <string name="search_hint">Artikel suchen…</string>
+    <string name="mark_all_read">Alle als gelesen markieren</string>
+    <string name="marked_all_read">Alle als gelesen markiert</string>
+    <string name="import_opml">Feeds importieren (OPML)</string>
+    <string name="export_opml">Feeds exportieren (OPML)</string>
+    <string name="opml_exported">%1$d Feed(s) exportiert</string>
+    <string name="opml_export_failed">Export fehlgeschlagen</string>
+    <string name="opml_imported">%1$d neue(r) Feed(s) importiert</string>
+    <string name="opml_import_none">Keine neuen Feeds in dieser Datei gefunden</string>
+    <string name="opml_import_failed">OPML-Datei konnte nicht gelesen werden</string>
+    <string name="opml_import_limited">%1$d Feed(s) importiert. Die kostenlose Version ist auf %2$d begrenzt — hol dir Pro für unbegrenzte Quellen.</string>
+
+    <!-- All items -->
+    <string name="sort_by">Sortieren:</string>
+    <string name="filter_by">Quelle:</string>
+    <string name="all_sources">Alle Quellen</string>
+    <string name="empty_items">Noch keine Artikel.\nFüge eine Quelle hinzu und aktualisiere, um Artikel zu laden.</string>
+    <string name="empty_favorites">Noch keine Favoriten.\nTippe bei einem Artikel auf den Stern, um ihn hier zu speichern.</string>
+    <string name="empty_sources">Noch keine Quellen.\nTippe auf +, um einen Feed hinzuzufügen.</string>
+
+    <!-- Sources -->
+    <string name="add_custom_feed">Eigener Feed</string>
+    <string name="source_name">Name</string>
+    <string name="source_url">Feed-URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Hinweis: Beim Hinzufügen oder Aktualisieren eines Feeds verbindet sich dein Gerät mit dem Server dieser Quelle, der deine IP-Adresse und Anfragedetails erhalten kann. Lies bitte die Datenschutzerklärung und die Datenschutzbestimmungen jeder Quelle, um zu erfahren, wie sie diese Daten verwendet.</string>
+    <string name="from_catalogue">Aus dem Katalog</string>
+    <string name="custom">Eigene</string>
+    <string name="items_count">%1$d Artikel</string>
+    <string name="refreshing">Wird aktualisiert…</string>
+    <string name="refresh_done">%1$d neue(r) Artikel · %2$d Quelle(n) ok, %3$d fehlgeschlagen</string>
+    <string name="refresh_failed">Aktualisierung fehlgeschlagen</string>
+    <string name="source_refreshed">%1$d neue(r) Artikel</string>
+    <string name="source_refresh_failed">Feed konnte nicht geladen werden</string>
+    <string name="url_required">Bitte gib eine Feed-URL ein</string>
+    <string name="source_exists">Dieser Feed ist bereits in deinen Quellen</string>
+    <string name="source_added">Quelle hinzugefügt</string>
+    <string name="delete_source_q">Diese Quelle und ihre Artikel löschen? Favoriten bleiben erhalten.</string>
+    <string name="validating">Feed wird geprüft…</string>
+    <string name="invalid_feed">Feed konnte nicht gelesen werden. Prüfe die URL.</string>
+
+    <!-- Detail -->
+    <string name="favorited">Zu Favoriten hinzugefügt</string>
+    <string name="unfavorited">Aus Favoriten entfernt</string>
+    <string name="no_content_online">Dieser Artikel wird online gelesen. Zum Öffnen tippen.</string>
+    <string name="by_author">von %1$s</string>
+
+    <!-- First run / storage mode -->
+    <string name="first_run_title">Wie möchtest du lesen?</string>
+    <string name="first_run_message">Wähle, wie Artikel behandelt werden. Du kannst dies später in den Einstellungen ändern.</string>
+    <string name="mode_local_title">Lokal speichern</string>
+    <string name="mode_local_desc">Vollständigen Artikeltext auf dieses Gerät laden und behalten. Offline lesen.</string>
+    <string name="mode_online_title">Online lesen</string>
+    <string name="mode_online_desc">Nur Überschriften behalten; den vollständigen Artikel beim Antippen im Web öffnen.</string>
+
+    <!-- Settings -->
+    <string name="setting_storage_header">Lesen &amp; Speicher</string>
+    <string name="setting_store_local">Artikel lokal speichern</string>
+    <string name="setting_store_local_sub">Aus = Artikel nur online lesen (Favoriten bleiben immer erhalten)</string>
+    <string name="setting_show_images">Bilder in Artikeln anzeigen</string>
+    <string name="setting_show_images_sub">Bilder aus Feeds laden (aus = nur Text)</string>
+    <string name="images_warning_title">Bilder anzeigen?</string>
+    <string name="images_warning_message">Bilder werden direkt von den Servern des jeweiligen Feeds geladen. Dabei wird deine IP-Adresse (und ungefährer Standort/Netzwerk) demjenigen bekannt, der das Bild hostet — das kann zur Nachverfolgung genutzt werden. Bereits gespeicherte Favoriten sind nicht betroffen. Bilder trotzdem laden?</string>
+    <string name="images_enable">Bilder aktivieren</string>
+
+    <string name="setting_refresh_header">Hintergrund-Updates</string>
+    <string name="setting_auto_refresh">Automatisch im Hintergrund aktualisieren</string>
+    <string name="setting_auto_refresh_sub">Regelmäßig neue Artikel abrufen, auch wenn die App geschlossen ist</string>
+    <string name="setting_push">Über neue Artikel benachrichtigen</string>
+    <string name="setting_push_sub">Eine Benachrichtigung anzeigen, wenn die Hintergrundaktualisierung neue Artikel findet</string>
+    <string name="setting_interval">Aktualisierungsintervall</string>
+    <string name="setting_about">Über diese App</string>
+    <string name="notif_permission_needed">Benachrichtigungen erlauben, um über neue Artikel informiert zu werden</string>
+
+    <!-- Notifications -->
+    <string name="channel_new_items">Neue Artikel</string>
+    <string name="channel_new_items_desc">Hinweise, wenn die Hintergrundaktualisierung neue Artikel findet</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d neuer Artikel</item>
+        <item quantity="other">%d neue Artikel</item>
+    </plurals>
+
+    <!-- Privacy -->
+    <string name="title_privacy">Datenschutz</string>
+    <string name="privacy">Datenschutz</string>
+
+    <!-- About -->
+    <string name="about_app_tagline">Ein schlanker, fortschrittlicher RSS-Reader.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_developer_header">Entwickler</string>
+
+    <!-- Connectivity / security -->
+    <string name="no_connection">Keine Internetverbindung</string>
+    <string name="offline_cant_refresh">Du bist offline — verbinde dich mit dem Internet zum Aktualisieren</string>
+    <string name="offline_article">Du bist offline. Dieser Artikel wird online geöffnet — stelle eine Internetverbindung her und versuche es erneut.</string>
+    <string name="offline_validate">Du bist offline — verbinde dich mit dem Internet, um einen Feed hinzuzufügen</string>
+    <string name="blocked_link">Dieser Link wurde zu deiner Sicherheit blockiert</string>
+    <string name="web_load_error">Seite konnte nicht geladen werden</string>
+
+    <!-- Pro upgrade -->
+    <string name="pro_dialog_title">Auf Pro upgraden</string>
+    <string name="pro_dialog_message">Die kostenlose Version ist auf %1$d Quellen begrenzt.\n\nHol dir \"RSS Reader Advanced Pro\" bei Google Play für unbegrenzte Quellen.</string>
+    <string name="pro_get">Pro holen</string>
+    <string name="pro_later">Jetzt nicht</string>
+
+    <!-- content descriptions -->
+    <string name="cd_favorite">Favorit</string>
+    <string name="cd_add">Quelle hinzufügen</string>
+</resources>

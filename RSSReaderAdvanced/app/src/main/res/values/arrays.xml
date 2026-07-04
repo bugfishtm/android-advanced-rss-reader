@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Order must match RssRepository SORT_* constants -->
+    <string-array name="sort_options">
+        <item>Newest first</item>
+        <item>Oldest first</item>
+        <item>Title (A–Z)</item>
+        <item>Source (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Every 15 minutes</item>
+        <item>Every 30 minutes</item>
+        <item>Every hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+        <item>Once a day</item>
+    </string-array>
+
+    <integer-array name="interval_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>1440</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>Nejnovější první</item>
+        <item>Nejstarší první</item>
+        <item>Název (A–Z)</item>
+        <item>Zdroj (A–Z)</item>
+    </string-array>
+
+    <string-array name="interval_labels">
+        <item>Každých 15 minut</item>
+        <item>Každých 30 minut</item>
+        <item>Každou hodinu</item>
+        <item>Každé 3 hodiny</item>
+        <item>Každých 6 hodin</item>
+        <item>Jednou denně</item>
+    </string-array>
+</resources>

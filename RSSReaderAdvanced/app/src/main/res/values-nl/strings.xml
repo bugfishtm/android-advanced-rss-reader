@@ -1,0 +1,124 @@
+<resources>
+    <string name="nav_all">Alle artikelen</string>
+    <string name="nav_sources">Bronnen</string>
+    <string name="nav_favorites">Favorieten</string>
+
+    <string name="title_add_source">Bron toevoegen</string>
+    <string name="title_edit_source">Bron bewerken</string>
+    <string name="title_settings">Instellingen</string>
+    <string name="title_about">Over</string>
+
+    <string name="refresh_all">Alles vernieuwen</string>
+    <string name="add">Toevoegen</string>
+    <string name="save">Opslaan</string>
+    <string name="cancel">Annuleren</string>
+    <string name="delete">Verwijderen</string>
+    <string name="edit">Bewerken</string>
+    <string name="settings">Instellingen</string>
+    <string name="about">Over</string>
+    <string name="open_in_browser">Openen in browser</string>
+    <string name="share">Delen</string>
+    <string name="send_email">Verzenden via e-mail</string>
+    <string name="copy_link">Link kopiëren</string>
+    <string name="text_larger">Grotere tekst</string>
+    <string name="text_smaller">Kleinere tekst</string>
+    <string name="link_copied">Link gekopieerd</string>
+    <string name="no_email_app">Geen e-mailapp gevonden</string>
+    <string name="search">Zoeken</string>
+    <string name="search_hint">Artikelen zoeken…</string>
+    <string name="mark_all_read">Alles als gelezen markeren</string>
+    <string name="marked_all_read">Alles als gelezen gemarkeerd</string>
+    <string name="import_opml">Feeds importeren (OPML)</string>
+    <string name="export_opml">Feeds exporteren (OPML)</string>
+    <string name="opml_exported">%1$d feed(s) geëxporteerd</string>
+    <string name="opml_export_failed">Exporteren mislukt</string>
+    <string name="opml_imported">%1$d nieuwe feed(s) geïmporteerd</string>
+    <string name="opml_import_none">Geen nieuwe feeds gevonden in dat bestand</string>
+    <string name="opml_import_failed">Kan dat OPML-bestand niet lezen</string>
+    <string name="opml_import_limited">%1$d feed(s) geïmporteerd. De gratis versie is beperkt tot %2$d — neem Pro voor onbeperkt.</string>
+
+    <string name="sort_by">Sorteren:</string>
+    <string name="filter_by">Bron:</string>
+    <string name="all_sources">Alle bronnen</string>
+    <string name="empty_items">Nog geen artikelen.\nVoeg een bron toe en vernieuw om artikelen op te halen.</string>
+    <string name="empty_favorites">Nog geen favorieten.\nTik op de ster van een artikel om het hier op te slaan.</string>
+    <string name="empty_sources">Nog geen bronnen.\nTik op + om een feed toe te voegen.</string>
+
+    <string name="add_custom_feed">Eigen feed</string>
+    <string name="source_name">Naam</string>
+    <string name="source_url">Feed-URL (RSS / Atom)</string>
+    <string name="add_source_privacy_notice">Let op: bij het toevoegen of vernieuwen van een feed maakt je apparaat verbinding met de server van die bron, die je IP-adres en aanvraaggegevens kan ontvangen. Bekijk het privacybeleid en de gegevensbeschermingsvoorwaarden van elke bron om te zien hoe ze deze gegevens gebruiken.</string>
+    <string name="from_catalogue">Uit catalogus</string>
+    <string name="custom">Aangepast</string>
+    <string name="items_count">%1$d artikelen</string>
+    <string name="refreshing">Vernieuwen…</string>
+    <string name="refresh_done">%1$d nieuwe artikelen · %2$d bron(nen) ok, %3$d mislukt</string>
+    <string name="refresh_failed">Vernieuwen mislukt</string>
+    <string name="source_refreshed">%1$d nieuwe artikelen</string>
+    <string name="source_refresh_failed">Kan feed niet laden</string>
+    <string name="url_required">Voer een feed-URL in</string>
+    <string name="source_exists">Die feed staat al bij je bronnen</string>
+    <string name="source_added">Bron toegevoegd</string>
+    <string name="delete_source_q">Deze bron en zijn artikelen verwijderen? Favorieten blijven behouden.</string>
+    <string name="validating">Feed controleren…</string>
+    <string name="invalid_feed">Kan die feed niet lezen. Controleer de URL.</string>
+
+    <string name="favorited">Opgeslagen bij favorieten</string>
+    <string name="unfavorited">Verwijderd uit favorieten</string>
+    <string name="no_content_online">Dit artikel wordt online gelezen. Tik om te openen.</string>
+    <string name="by_author">door %1$s</string>
+
+    <string name="first_run_title">Hoe wil je lezen?</string>
+    <string name="first_run_message">Kies hoe artikelen worden verwerkt. Je kunt dit later wijzigen in Instellingen.</string>
+    <string name="mode_local_title">Lokaal opslaan</string>
+    <string name="mode_local_desc">Download en bewaar de volledige artikeltekst op dit apparaat. Lees offline.</string>
+    <string name="mode_online_title">Online lezen</string>
+    <string name="mode_online_desc">Bewaar alleen de koppen; open het volledige artikel op het web wanneer je tikt.</string>
+
+    <string name="setting_storage_header">Lezen &amp; opslag</string>
+    <string name="setting_store_local">Artikelen lokaal opslaan</string>
+    <string name="setting_store_local_sub">Uit = artikelen alleen online lezen (favorieten blijven altijd behouden)</string>
+    <string name="setting_show_images">Afbeeldingen in artikelen tonen</string>
+    <string name="setting_show_images_sub">Afbeeldingen uit feeds laden (uit = alleen tekst)</string>
+    <string name="images_warning_title">Afbeeldingen tonen?</string>
+    <string name="images_warning_message">Afbeeldingen worden rechtstreeks van de servers van elke feed geladen. Daarbij wordt je IP-adres (en globale locatie/netwerk) bekend bij wie de afbeelding host — dit kan worden gebruikt om je te volgen. Reeds opgeslagen favorieten worden niet beïnvloed. Toch afbeeldingen laden?</string>
+    <string name="images_enable">Afbeeldingen inschakelen</string>
+
+    <string name="setting_refresh_header">Achtergrondupdates</string>
+    <string name="setting_auto_refresh">Automatisch op de achtergrond vernieuwen</string>
+    <string name="setting_auto_refresh_sub">Haal regelmatig nieuwe artikelen op, ook als de app gesloten is</string>
+    <string name="setting_push">Meld me nieuwe artikelen</string>
+    <string name="setting_push_sub">Toon een melding wanneer de achtergrondvernieuwing nieuwe artikelen vindt</string>
+    <string name="setting_interval">Vernieuwingsinterval</string>
+    <string name="setting_about">Over deze app</string>
+    <string name="notif_permission_needed">Sta meldingen toe om waarschuwingen over nieuwe artikelen te ontvangen</string>
+
+    <string name="channel_new_items">Nieuwe artikelen</string>
+    <string name="channel_new_items_desc">Meldingen wanneer de achtergrondvernieuwing nieuwe artikelen vindt</string>
+    <plurals name="new_items_notification">
+        <item quantity="one">%d nieuw artikel</item>
+        <item quantity="other">%d nieuwe artikelen</item>
+    </plurals>
+
+    <string name="title_privacy">Privacy</string>
+    <string name="privacy">Privacy</string>
+
+    <string name="about_app_tagline">Een strakke, geavanceerde RSS-lezer.</string>
+    <string name="about_version">Versie %1$s</string>
+    <string name="about_developer_header">Ontwikkelaar</string>
+
+    <string name="no_connection">Geen internetverbinding</string>
+    <string name="offline_cant_refresh">Je bent offline — maak verbinding met internet om te vernieuwen</string>
+    <string name="offline_article">Je bent offline. Dit artikel opent online — maak verbinding met internet en probeer opnieuw.</string>
+    <string name="offline_validate">Je bent offline — maak verbinding met internet om een feed toe te voegen</string>
+    <string name="blocked_link">Deze link is voor je veiligheid geblokkeerd</string>
+    <string name="web_load_error">Kan de pagina niet laden</string>
+
+    <string name="pro_dialog_title">Upgraden naar Pro</string>
+    <string name="pro_dialog_message">De gratis versie is beperkt tot %1$d bronnen.\n\nHaal \"RSS Reader Advanced Pro\" in Google Play voor onbeperkte bronnen.</string>
+    <string name="pro_get">Pro halen</string>
+    <string name="pro_later">Niet nu</string>
+
+    <string name="cd_favorite">Favoriet</string>
+    <string name="cd_add">Bron toevoegen</string>
+</resources>
