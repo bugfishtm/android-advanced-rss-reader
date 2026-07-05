@@ -64,7 +64,7 @@ This table provides an overview of key files and folders related to the reposito
 | _changelogs | Folder for changelogs. |
 | _releases | Folder for releases. |
 | _screenshot | Folder with app screenshots. |
-| app | Folder with the Android application source code. |
+| _source | Folder with the Android application source code. |
 | docs | Folder for the documentation. | 
 | .gitattributes | Repository setting file. Only for development purposes. |
 | .gitignore | Repository ignore file. Only for development purposes. |
